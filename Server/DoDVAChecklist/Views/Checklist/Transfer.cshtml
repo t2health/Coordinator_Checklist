@@ -1,0 +1,34 @@
+﻿@using DoDVAChecklist.Models
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>Transfer to...</h1>
+            </hgroup>
+        </div>
+    </section>
+}
+
+@section scripts {
+    @Scripts.Render("~/bundles/jqueryui")
+    @Scripts.Render("~/Scripts/checklist.js")
+}
+
+<div id="dialog" title="Transfer this checklist?">
+    <p><span class="ui-icon ui-icon-alert" style="float: left; margin: 0 7px 20px 0;"></span>This checklist will be permenantly transferred, are you sure?</p>
+</div>
+
+<h2>Eligible Recipients</h2>
+<div>
+    <table>
+        <tbody>
+            @foreach (UserProfile recipient in ViewBag.Users)
+            {
+                <tr>
+                    <td><a href="#" onclick="return confirmTransfer('@Url.Action("CompleteTransfer", new { controller = "Checklist", checklistId = ViewBag.Checklist.ChecklistId, recipientId = recipient.UserId })');">@recipient.FullName</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

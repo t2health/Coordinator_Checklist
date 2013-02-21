@@ -1,0 +1,50 @@
+﻿@using DoDVAChecklist.ViewModels
+@model ChecklistViewModel
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>Checklist Details...</h1>
+            </hgroup>
+        </div>
+    </section>
+}
+
+<h2>Created</h2>
+<p>@Model.CreatedDate</p>
+
+<h2>Last Modified</h2>
+<p>@Model.ModifiedDate</p>
+
+<h2>History</h2>
+@if (Model.HistoryEntries.Any())
+{
+    <table class="history">
+        <thead>
+            <tr>
+                <th>Transferrer</th>
+                <th>Recipient</th>
+                <th>Transfer Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (ChecklistHistoryEntryViewModel entry in Model.HistoryEntries)
+            {
+                <tr>
+                    <td>@entry.Transferrer</td>
+                    <td>@entry.Recipient</td>
+                    <td>@entry.TransferDate</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No History Entries</p>   
+}
+
+<h2 style="float: left;">Contents</h2>@Html.ActionLink("Print", "Print", new { Controller = "Checklist", Id=Model.ChecklistId }, new { Class = "print", Target = "print" })
+<div class="code">
+    @Html.Partial("Details", Model)
+</div>

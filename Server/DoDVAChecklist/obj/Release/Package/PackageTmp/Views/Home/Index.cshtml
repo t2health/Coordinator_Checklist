@@ -1,0 +1,78 @@
+﻿@using DoDVAChecklist.ViewModels
+@model HomeViewModel
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>Welcome @User.Identity.Name...</h1>
+            </hgroup>
+        </div>
+    </section>
+}
+
+@if (TempData["Message"] != null)
+{
+    <p class="message-success">@TempData["Message"]</p>
+}
+
+@if (Roles.IsUserInRole("Admin"))
+{
+    <h2>New Users Pending Approval</h2>
+    if (Model.ApprovalUsers.Any())
+    {
+        <div>
+            <table class="users">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (PendingUserViewModel user in Model.ApprovalUsers)
+                    {
+                        <tr>
+                            <td>@user.LastName, @user.FirstName (@user.UserName)</td>
+                            <td>
+                                @Html.ActionLink("Approve", "Approve", new { controller = "Account", id = user.UserId })
+                                @Html.ActionLink("Decline", "Decline", new { controller = "Account", id = user.UserId })
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    } 
+    else
+    {
+        <p>No Users Pending Approval</p>
+    }
+}
+
+<h2>My Checklists</h2>
+@if (Model.Checklists.Any())
+{
+    <div>
+        <table class="checklists">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (HomeChecklistViewModel checklist in Model.Checklists)
+                {
+                    <tr>
+                        <td>@Html.ActionLink(checklist.Title, "View", new { controller = "Checklist", id = checklist.Id })</td>
+                        <td>@Html.ActionLink("Transfer", "Transfer", new { controller = "Checklist", id = checklist.Id })</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <p>No Assigned Checklists</p>   
+}

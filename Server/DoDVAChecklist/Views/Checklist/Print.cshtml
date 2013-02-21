@@ -1,0 +1,15 @@
+﻿@model DoDVAChecklist.ViewModels.ChecklistViewModel
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>DoD VA Lead Coordinator Checklist</title>
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/themes/base/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body onload="window.focus(); window.print(); window.close();" style="padding: 20px; border-top:none;">
+    @Html.Partial("Details", Model)
+</body>
+</html>

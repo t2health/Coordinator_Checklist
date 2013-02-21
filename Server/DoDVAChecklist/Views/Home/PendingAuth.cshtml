@@ -1,0 +1,14 @@
+﻿@using DoDVAChecklist.ViewModels
+@model HomeViewModel
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>Welcome @User.Identity.Name...</h1>
+            </hgroup>
+        </div>
+    </section>
+}
+
+<h2>Account Pending Approval</h2>
+<p>Your account was created, but requires administrator approval before you will be able to use the system.</p>

@@ -1,0 +1,21 @@
+﻿@using DoDVAChecklist.ViewModels
+@model PendingUserViewModel
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>Decline acount...</h1>
+            </hgroup>
+        </div>
+    </section>
+}
+
+<h2>Are you sure you want to decline the following user? This operation cannot be reversed.</h2>
+
+<p>@Model.LastName, @Model.FirstName (@Model.UserName)</p>
+@using (Html.BeginForm()) {
+    <p>
+        <input type="submit" value="Decline" /> |
+        @Html.ActionLink("Cancel", "Index", new { controller="Home" })
+    </p>
+}

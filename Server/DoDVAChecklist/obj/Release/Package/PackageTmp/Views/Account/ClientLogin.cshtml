@@ -1,0 +1,10 @@
+﻿@model DoDVAChecklist.Models.LoginModel
+
+@{
+    ViewBag.Title = "Log in";
+}
+
+@using (Html.BeginForm(new { ReturnUrl = ViewBag.ReturnUrl })) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+}

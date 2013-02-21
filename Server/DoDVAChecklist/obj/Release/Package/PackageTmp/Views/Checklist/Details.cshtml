@@ -1,0 +1,46 @@
+﻿@using DoDVAChecklist.ViewModels
+@model ChecklistViewModel
+
+<h3 style="margin-top: 0px;">Name:</h3>
+<p>@Model.Details.LastName, @Model.Details.FirstName</p>
+
+<h3 class="section">Service</h3>
+<p>@Model.Details.Service</p>
+
+<h3 class="section">Service Status</h3>
+<p>@Model.Details.Status</p>
+
+<h3 class="section">Phone Number</h3>
+<p>@Model.Details.Phone</p>
+
+<h3 class="section">Secondary Phone Number</h3>
+<p>@Model.Details.PhoneAlternate</p>
+
+<h3 class="section">Category</h3>
+<p>@Model.Details.Category</p>
+
+@foreach (ChecklistQuestionGroupViewModel group in Model.Details.QuestionGroups)
+{
+    <h3 class="section">@group.Name</h3>
+    <div>
+        @foreach (ChecklistQuestionViewModel question in group.Questions)
+        {
+            <p @{if (@question.Completed)
+                 { <text>class="st"</text> }}>@question.Question
+            </p>
+        }
+    </div>
+}
+
+@foreach (ChecklistDomainViewModel domain in Model.Details.Domains)
+{
+    <h3 class="section">@domain.Name</h3>
+    <div>
+        @foreach (ChecklistDomainCategoryViewModel category in domain.Categories)
+        {
+            <p class="category">@category.Name</p>
+            <p>@category.Date.Date.ToShortDateString() &mdash; @category.Status</p>
+            <p>@category.ResponsibleParty</p>
+        }
+    </div>
+}
