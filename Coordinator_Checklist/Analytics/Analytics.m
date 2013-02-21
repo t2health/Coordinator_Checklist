@@ -1,4 +1,6 @@
-/* LifeArmor
+/*
+ *
+ * CoordinatorChecklist
  *
  * Copyright © 2009-2012 United States Government as represented by
  * the Chief Information Officer of the National Center for Telehealth
@@ -18,8 +20,8 @@
  * RESPONSIBILITIES AND OBLIGATIONS CONTAINED IN THIS AGREEMENT.
  *
  * Government Agency: The National Center for Telehealth and Technology
- * Government Agency Original Software Designation: LifeArmor001
- * Government Agency Original Software Title: LifeArmor
+ * Government Agency Original Software Designation:  * CoordinatorChecklist001
+ * Government Agency Original Software Title:  * CoordinatorChecklist
  * User Registration Requested. Please send email
  * with your contact information to: robert.kayl2@us.army.mil
  * Government Agency Point of Contact for Original Software: robert.kayl2@us.army.mil

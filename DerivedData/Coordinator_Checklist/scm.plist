@@ -4,10 +4,11 @@
 <dict>
 	<key>FoundWorkingCopyPaths</key>
 	<array>
+		<string>/Users/reason/xcode/Coordinator_Checklist</string>
 		<string>/Users/reason/xcode</string>
 	</array>
 	<key>LastWorkingCopyScanDate</key>
-	<date>2013-02-21T22:25:01Z</date>
+	<date>2013-02-21T22:48:13Z</date>
 	<key>MissingFilePaths</key>
 	<array/>
 	<key>Version</key>
