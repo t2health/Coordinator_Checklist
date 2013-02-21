@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<workflow title="Checklists">
+	<step id="0" positiveStepId="" negativeStepId="" neutralStepId="1">
+		<title></title>
+        <neutralStepTitle>Part I. Initial/New Lead Coordinator</neutralStepTitle>
+		<content><![CDATA[
+                    <div class="content-secondary">
+                            <div id="jqm-homeheader">
+                            	<h1 id="jqm-logo"><img src="img/logo.png" alt="DoD/VA lead Coordinator Checklist" /></h1>
+                            </div>
+                            <p class="intro"><strong>NOTE:</strong> ALL LEAD COORDINATOR TASKS SHOULD BE DOCUMENTED IN THE APPROPRIATE SECTION OF THE COMPREHENSIVE PLAN.</p>
+                            <ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="f">
+                                    <li data-role="list-divider">Overview</li>
+                                    <li><a href="docs/about/intro.html">Intro to Coordinator Checklist</a></li>
+                                    <li><a href="docs/about/features.html">About</a></li>
+                            </ul>
+
+                    </div><!--/content-primary-->
+
+                    <div class="content-primary">
+                        <div data-role="fieldcontain" >
+                            <label for="first_name" class="ui-input-text">First Name:</label>
+                            <input type="text" name="first_name" id="first_name" value="">
+                        </div>
+                        <div data-role="fieldcontain" >
+                            <label for="last_name" class="ui-input-text">Last Name:</label>
+                            <input type="text" name="last_name" id="last_name" value="">
+                        </div>
+                        <div data-role="fieldcontain" >
+                            <label for="dob" class="ui-input-text">DOB:</label>
+                            <input type="date" name="dob" id="dob" value="">
+                        </div>
+                        <div data-role="fieldcontain" >
+                            <label for="service" class="ui-input-text">Service:</label>
+                            <input type="text" name="service" id="service" value="">
+                        </div>
+                        <div data-role="fieldcontain" >
+                            <label for="service_status" class="ui-input-text">Service status:</label>
+                            <input type="text" name="service_status" id="service_status" value="">
+                        </div>
+                        <div data-role="fieldcontain" >
+                            <label for="phone_number-pattern" class="ui-input-text">Phone Number:</label>
+                            <input type="number" name="phone_number" pattern="[0-9]*" id="phone_number-pattern" value="" placeholder="(000) 000-0000">
+                        </div>
+                        <div data-role="fieldcontain">
+                            <label for="secondary_phone_number-pattern" class="ui-input-text">Secondary Phone:</label>
+                            <input type="number" name="secondary_phone" pattern="[0-9]*" id="secondary_phone_number-pattern" value="" placeholder="(000) 000-0000">
+                        </div>
+                        <div data-role="fieldcontain">
+                            <fieldset data-role="controlgroup" data-type="horizontal">
+                                <div role="heading" class="ui-controlgroup-label">Category:</div>
+                                <div class="ui-controlgroup-controls">
+
+                                    <div class="ui-radio">
+                                        <input type="radio" name="category" id="category-1" value="1">
+                                        <label for="category-1" data-corners="true" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-theme="c">1</label>
+                                    </div>
+
+                                    <div class="ui-radio">
+                                        <input type="radio" name="category" id="category-2" value="2">
+                                        <label for="category-2" data-corners="true" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-theme="c">2</label>
+                                    </div>
+
+                                    <div class="ui-radio">
+                                        <input type="radio" name="category" id="category-3" value="3">
+                                        <label for="category-3" data-corners="true" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-theme="c">3</label>
+                                    </div>
+
+                                </div>
+                            </fieldset>
+                        </div>
+                    </div>
+                ]]></content>
+		<detailedContent></detailedContent>
+	</step>
+	<step id="1" positiveStepId="" negativeStepId="" neutralStepId="2">
+		<title>Part I. Initial/New Lead Coordinator</title>
+        <neutralStepTitle>Part II. Ongoing tasks</neutralStepTitle>
+		<content><![CDATA[
+                    <fieldset data-role="controlgroup" class="ui-corner-all ui-controlgroup ui-controlgroup-vertical">
+                        <div role="heading" class="ui-controlgroup-label">Part I. Initial/New Lead Coordinator</div>
+                        <div class="ui-controlgroup-controls">	
+                            
+                                        <input type="checkbox" name="review_of_patient_medical_records" id="review_of_patient_medical_records" class="custom">
+                                        <label for="review_of_patient_medical_records" data-corners="true" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-icon="checkbox-off" data-theme="c">Review of patient's medical and/or non-medical record</label>
+                                 
+
+
+                                    <input type="checkbox" name="auth_care_received" id="auth_care_received" class="custom">
+                                    <label for="auth_care_received" data-corners="true" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-icon="checkbox-off" data-theme="c">Authorization(s) for care received (i.e. TRICARE, M MSO) -if applicable</label>
+                                    
+
+                                    <input type="checkbox" name="handoff_case_managers" id="handoff_case_managers" class="custom">
+                                        <label for="handoff_case_managers" data-corners="true" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-icon="checkbox-off" data-theme="c" >Ensure warm hand-off between sending and receiving PCMs and case managers</label>
+                                                
+
+                                    <input type="checkbox" name="intro_coordinator_servicemember" id="intro_coordinator_servicemember" class="custom">
+                                        <label for="intro_coordinator_servicemember" data-corners="true" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-icon="checkbox-off" data-theme="c" >Introduce Lead Coordinator role to Servicemember/Veteran/Family -Elevator Script</label>
+                                                
+
+                                    <input type="checkbox" name="care_team_servicemember" id="care_team_servicemember" class="custom">
+                                        <label for="care_team_servicemember" data-corners="true" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-icon="checkbox-off" data-theme="c" >Conduct introductions ofthe care team to Servicemember/Veteran and Family</label>
+                                                
+
+                                    <input type="checkbox" name="assess_immediate_needs" id="assess_immediate_needs" class="custom">
+                                        <label for="assess_immediate_needs" data-corners="true" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-icon="checkbox-off" data-theme="c" >Assessment/requirements for Servicemember/Veteran/Family immediate needs (health care, childcare, transportation, financial, lodging, etc) (Discussion with Service Leads)</label>
+                                                
+
+                                    <input type="checkbox" name="schedule_initial_meeting" id="schedule_initial_meeting" class="custom">
+                                        <label for="schedule_initial_meeting" data-corners="true" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-icon="checkbox-off" data-theme="c" >Schedule initial meeting with Medical Management Team (MTF Providers and VA Liaison), and determine frequency of follow on meetings (and include family as necessary)</label>
+                                                
+
+                                    <input type="checkbox" name="schedule_initial_recovering" id="schedule_initial_recovering" class="custom">
+                                        <label for="schedule_initial_recovering" data-corners="true" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-icon="checkbox-off" data-theme="c" >Schedule initial meeting with the Recovering Warrior Service Program team and determine frequency of follow on meetings (and include family as necessary) -Non-clinical team can be included in the Medical Management Team meeting if feasible</label>
+                                                
+
+                                    <input type="checkbox" name="ensure_plan_up_to_date" id="ensure_plan_up_to_date" class="custom">
+                                        <label for="ensure_plan_up_to_date" data-corners="true" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-icon="checkbox-off" data-theme="c" >Ensure Comprehensive Plan is up to date</label>
+                                                
+                        </div>
+                     </fieldset>
+                ]]></content>
+		<detailedContent></detailedContent>
+	</step>
+	<step id="2" positiveStepId="" negativeStepId="" neutralStepId="3">
+		<title>Part II. Ongoing tasks</title>
+        <neutralStepTitle>Part III. Transfer to new Lead Coordinator</neutralStepTitle>
+		<content><![CDATA[
+                <fieldset data-role="controlgroup" class="ui-corner-all ui-controlgroup ui-controlgroup-vertical">
+                    <div role="heading" class="ui-controlgroup-label">Part II. Ongoing tasks</div>
+                    <div class="ui-controlgroup-controls">
+
+                                    
+                                        <input type="checkbox" name="weekly_updates_for_MMT" id="weekly_updates_for_MMT" class="custom">
+                                        <label for="weekly_updates_for_MMT" data-corners="true" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-icon="checkbox-off" data-theme="c" >
+                                        
+                                                <span class="ui-btn-text">Weekly updates for Medical Management Team</label>
+                                                
+
+
+                                    <input type="checkbox" name="weekly_updates_recovering" id="weekly_updates_recovering" class="custom">
+                                        <label for="weekly_updates_recovering" data-corners="true" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-icon="checkbox-off" data-theme="c" >Weekly updates with Non-Medical Recovering Warrior Program team</label>
+                                                
+
+                                    <input type="checkbox" name="admitted_to_VAMC_inpatient" id="admitted_to_VAMC_inpatient" class="custom">
+                                        <label for="admitted_to_VAMC_inpatient" data-corners="true" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-icon="checkbox-off" data-theme="c" >If Active Duty Servicemember admitted to VAMC inpatient rehab or receiving outpatient VA health care, VA Lead Coordinator providing at least monthly communication/clinical updates to military point of contact</label>
+                                                
+
+                                    <input type="checkbox" name="communicate_w_PEBLO" id="communicate_w_PEBLO" class="custom">
+                                        <label for="communicate_w_PEBLO" data-corners="true" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-icon="checkbox-off" data-theme="c" >Communicate with the PEBLO (Physical Evaluation Board Liaison Officer)</label>
+                                                
+
+                                    <input type="checkbox" name="master_comprehensive_plan_elements" id="master_comprehensive_plan_elements" class="custom">
+                                        <label for="master_comprehensive_plan_elements" data-corners="true" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-icon="checkbox-off" data-theme="c" >Complete the Master Comprehensive Plan Elements list (attached)</label>
+                                                
+                        </div>
+                </fieldset>
+		]]></content>
+		<detailedContent></detailedContent>
+	</step>
+	<step id="3" positiveStepId="" negativeStepId="" neutralStepId="4">
+		<title>Part III. Transfer to new Lead Coordinator</title>
+        <neutralStepTitle>Part IV. Interagency Master Comprehensive Plan Document Elements</neutralStepTitle>
+		<content><![CDATA[
+                <fieldset data-role="controlgroup" class="ui-corner-all ui-controlgroup ui-controlgroup-vertical">
+                    <div role="heading" class="ui-controlgroup-label">Part III. Transfer to new Lead Coordinator</div>
+                    <div class="ui-controlgroup-controls">
+
+                                    
+                                        <input type="checkbox" name="contact_receiving_liaison" id="contact_receiving_liaison" class="custom">
+                                        <label for="contact_receiving_liaison" data-corners="true" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-icon="checkbox-off" data-theme="c">
+                                                <span class="ui-btn-text">Contact receiving facility/unit/VA Liaison</label>
+                                                
+
+
+                                    <input type="checkbox" name="provide_packet_to_facility" id="provide_packet_to_facility" class="custom">
+                                        <label for="provide_packet_to_facility" data-corners="true" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-icon="checkbox-off" data-theme="c" >Provide packet to receiving facility/unit including copy (printed or electronic) of current Comprehensive Plan</label>
+                                                
+
+                                    <input type="checkbox" name="discuss_potential_referrals" id="discuss_potential_referrals" class="custom">
+                                        <label for="discuss_potential_referrals" data-corners="true" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-icon="checkbox-off" data-theme="c" >Discuss potential referrals to other medical activities / providers</label>
+                                                
+
+                                    <input type="checkbox" name="ensure_follow-up_appointments_scheduled" id="ensure_follow-up_appointments_scheduled" class="custom">
+                                        <label for="ensure_follow-up_appointments_scheduled" data-corners="true" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-icon="checkbox-off" data-theme="c" >Ensure initial follow-up appointments/admission scheduled at next facility of care</label>
+                                                
+
+                                    <input type="checkbox" name="ensure_sufficient_medications" id="ensure_sufficient_medications" class="custom">
+                                        <label for="ensure_sufficient_medications" data-corners="true" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-icon="checkbox-off" data-theme="c" >Ensure Servicemember has sufficient supply of medications until initial follow up appointment</label>
+                                                
+
+                                    <input type="checkbox" name="ensure_authorizations" id="ensure_authorizations" class="custom">
+                                        <label for="ensure_authorizations" data-corners="true" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-icon="checkbox-off" data-theme="c" >Ensure authorizations for care are requested/received</label>
+                                                
+
+                                    <input type="checkbox" name="ensure_new_coordinator_identified" id="ensure_new_coordinator_identified" class="custom">
+                                        <label for="ensure_new_coordinator_identified" data-corners="true" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-icon="checkbox-off" data-theme="c" >Ensure new Lead Coordinator has been identified and communicated to Servicemember/Veteran/Family/Team</label>
+                                                
+
+                        </div>
+                </fieldset>
+                
+                ]]></content>
+		<detailedContent></detailedContent>
+	</step>
+        
+    <step id="4" positiveStepId="" negativeStepId="" neutralStepId="">
+		<title>Part IV. Interagency Master Comprehensive Plan Document Elements</title>
+        <neutralStepTitle>Daily Living</neutralStepTitle>
+                <content><![CDATA[
+
+                    
+                        <p>Please complete the date addressed, note the status (i.e. not started, in progress, completed, or N/A), and the responsible party for the elements of the Comprehensive Plan. This summary of the elements will inform the new Lead Coordinator to consult the complete Interagency Comprehensive Plan for complete actions and details of that element.</p>
+                    <div id="domain_questions-0"></div>
+                        <script>
+                                loadJSONQuestions('checklist.json', 0);
+                        </script>
+                    <br />
+                    <input type="submit" data-theme="b" data-role="button" onclick="$('#confirmDialog').popup('open'); return false;" name="submit" value="Submit" />
+                ]]></content>
+		<detailedContent></detailedContent>
+	</step>
+    <step id="5" positiveStepId="" negativeStepId="" neutralStepId="6">
+    <title>Daily Living</title>
+    <neutralStepTitle>Family</neutralStepTitle>
+    <content><![CDATA[
+        <div id="domain_questions-1"></div>
+        <script>
+        
+        loadJSONQuestions('checklist.json', 1);
+        
+        </script>
+    ]]></content>
+    <detailedContent></detailedContent>
+    </step>
+    <step id="6" positiveStepId="" negativeStepId="" neutralStepId="7">
+        <title>Family</title>
+        <neutralStepTitle>Finances</neutralStepTitle>
+        <content><![CDATA[
+            <div id="domain_questions-2"></div>
+            <script>
+            
+            loadJSONQuestions('checklist.json', 2);
+            
+            </script>
+        ]]></content>
+        <detailedContent></detailedContent>
+    </step>
+    <step id="7" positiveStepId="" negativeStepId="" neutralStepId="8">
+        <title>Finances</title>
+        <neutralStepTitle>Health</neutralStepTitle>
+        <content><![CDATA[
+            <div id="domain_questions-3"></div>
+            <script>
+            
+            loadJSONQuestions('checklist.json', 3);
+            
+            </script>
+        ]]></content>
+        <detailedContent></detailedContent>
+    </step>
+    <step id="8" positiveStepId="" negativeStepId="" neutralStepId="9">
+        <title>Health</title>
+        <neutralStepTitle>Legal</neutralStepTitle>
+        <content><![CDATA[
+            <div id="domain_questions-4"></div>
+            <script>
+            
+            loadJSONQuestions('checklist.json', 4);
+            
+            </script>
+        ]]></content>
+        <detailedContent></detailedContent>
+    </step>
+    <step id="9" positiveStepId="" negativeStepId="" neutralStepId="10">
+        <title>Legal</title>
+        <neutralStepTitle>Military</neutralStepTitle>
+        <content><![CDATA[
+            <div id="domain_questions-5"></div>
+            <script>
+            
+            loadJSONQuestions('checklist.json', 5);
+            
+            </script>
+        ]]></content>
+        <detailedContent></detailedContent>
+    </step>
+    <step id="10" positiveStepId="" negativeStepId="" neutralStepId="11">
+        <title>Military</title>
+        <neutralStepTitle>Spirituality</neutralStepTitle>
+        <content><![CDATA[
+            <div id="domain_questions-6"></div>
+            <script>
+            
+            loadJSONQuestions('checklist.json', 6);
+            
+            </script>
+        ]]></content>
+        <detailedContent></detailedContent>
+    </step>
+    <step id="11" positiveStepId="" negativeStepId="" neutralStepId="">
+        <title>Spirituality</title>
+        <neutralStepTitle></neutralStepTitle>
+        <content><![CDATA[
+            <div id="domain_questions-7"></div>
+            <script>
+            
+            loadJSONQuestions('checklist.json', 7);
+            
+            </script>
+            <input type="submit" data-theme="b" data-role="button" onclick="$('#confirmDialog').popup('open'); return false;" name="submit" value="Submit" />
+        ]]></content>
+        <detailedContent></detailedContent>
+    </step>
+</workflow>

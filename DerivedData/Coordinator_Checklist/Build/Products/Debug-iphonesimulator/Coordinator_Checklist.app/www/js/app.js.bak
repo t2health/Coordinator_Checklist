@@ -1,0 +1,395 @@
+console.log('app js loaded');
+var formData = {};
+var results = null;
+var xmlWorkFlow = null;
+var historyCount = 0;
+var hasLocalStorage = testLocalStorage();
+var isPhoneGapRunning = false;
+
+document.addEventListener("deviceready", onDeviceReady, false);
+
+function onDeviceReady() {
+    console.log('phonegap is running');
+    isPhoneGapRunning = true;
+}
+
+
+function handleForm(e) {
+    console.log("form called")
+    e.preventDefault();
+    //gather the fields
+    var data = $(this).serializeArray();
+    
+    var json = { 'domains':[] };
+    jQuery.each(data, function(i, field) {
+        if (field['name'].charAt(0) == '|') {
+            var split = field['name'].split('|');
+            var domainName = split[1];
+            var catName = split[2];
+            var fieldName = split[3];
+            
+            var domain = null;
+            $(json['domains']).each(function(index, data) {
+                if (data['name'] == domainName) {
+                    domain = data;
+                    return false;
+                }
+            });
+
+            if (!domain) {
+                domain = {'name':domainName, 'categories':[]};
+                json['domains'].push(domain);
+            }
+
+            var category = null;
+            $(domain['categories']).each(function(index, data) {
+                if (data['name'] == catName) {
+                    category = data;
+                    return false;
+                }
+            });
+
+            if (!category) {
+                category = {'name':catName};
+                domain['categories'].push(category);
+            }
+
+            category[fieldName] = field['value'];
+        } else {
+            if (field['value'] == 'on') {
+                json[field['name']] = true
+            } else {
+                json[field['name']] = field['value'];
+            }
+        }
+    });
+
+    console.log(json);
+
+    return cordova.exec(null, null, "HTML5FormPlugin", "sendResults", [json]);
+    
+    //logFormResults(data);
+
+};
+
+
+// var stuff = [{"name":"name","value":""},{"name":"dob","value":""},{"name":"service","value":""},{"name":"service_status","value":""},{"name":"phone_number","value":""},{"name":"secondary_phone","value":""},{"name":"|Career|Car-0|date","value":""},{"name":"|Career|Car-0|status","value":"Not Started"},{"name":"|Career|Car-0|responsible_party","value":""},{"name":"|Career|Edu-0|date","value":""},{"name":"|Career|Edu-0|status","value":"Not Started"},{"name":"|Career|Edu-0|responsible_party","value":""},{"name":"|Career|Emp-0|date","value":""},{"name":"|Career|Emp-0|status","value":"Not Started"},{"name":"|Career|Emp-0|responsible_party","value":""},{"name":"|Career|Lic-0|date","value":""},{"name":"|Career|Lic-0|status","value":"Not Started"},{"name":"|Career|Lic-0|responsible_party","value":""},{"name":"|Career|Voc-0|date","value":""},{"name":"|Career|Voc-0|status","value":"Not Started"},{"name":"|Career|Voc-0|responsible_party","value":""},{"name":"|Career|Ref-0|date","value":""},{"name":"|Career|Ref-0|status","value":"Not Started"},{"name":"|Career|Ref-0|responsible_party","value":""},{"name":"|Daily Living|Com-1|date","value":""},{"name":"|Daily Living|Com-1|status","value":"Not Started"},{"name":"|Daily Living|Com-1|responsible_party","value":""},{"name":"|Daily Living|Ada-1|date","value":""},{"name":"|Daily Living|Ada-1|status","value":"Not Started"},{"name":"|Daily Living|Ada-1|responsible_party","value":""},{"name":"|Daily Living|Dri-1|date","value":""},{"name":"|Daily Living|Dri-1|status","value":"Not Started"},{"name":"|Daily Living|Dri-1|responsible_party","value":""},{"name":"|Daily Living|Hou-1|date","value":""},{"name":"|Daily Living|Hou-1|status","value":"Not Started"},{"name":"|Daily Living|Hou-1|responsible_party","value":""},{"name":"|Daily Living|Aut-1|date","value":""},{"name":"|Daily Living|Aut-1|status","value":"Not Started"},{"name":"|Daily Living|Aut-1|responsible_party","value":""},{"name":"|Daily Living|Clo-1|date","value":""},{"name":"|Daily Living|Clo-1|status","value":"Not Started"},{"name":"|Daily Living|Clo-1|responsible_party","value":""},{"name":"|Daily Living|Com-1|date","value":""},{"name":"|Daily Living|Com-1|status","value":"Not Started"},{"name":"|Daily Living|Com-1|responsible_party","value":""},{"name":"|Daily Living|Eme-1|date","value":""},{"name":"|Daily Living|Eme-1|status","value":"Not Started"},{"name":"|Daily Living|Eme-1|responsible_party","value":""},{"name":"|Daily Living|Hom-1|date","value":""},{"name":"|Daily Living|Hom-1|status","value":"Not Started"},{"name":"|Daily Living|Hom-1|responsible_party","value":""},{"name":"|Daily Living|Hom-1|date","value":""},{"name":"|Daily Living|Hom-1|status","value":"Not Started"},{"name":"|Daily Living|Hom-1|responsible_party","value":""},{"name":"|Daily Living|Hou-1|date","value":""},{"name":"|Daily Living|Hou-1|status","value":"Not Started"},{"name":"|Daily Living|Hou-1|responsible_party","value":""},{"name":"|Daily Living|Ind-1|date","value":""},{"name":"|Daily Living|Ind-1|status","value":"Not Started"},{"name":"|Daily Living|Ind-1|responsible_party","value":""},{"name":"|Daily Living|Sel-1|date","value":""},{"name":"|Daily Living|Sel-1|status","value":"Not Started"},{"name":"|Daily Living|Sel-1|responsible_party","value":""},{"name":"|Daily Living|Spe-1|date","value":""},{"name":"|Daily Living|Spe-1|status","value":"Not Started"},{"name":"|Daily Living|Spe-1|responsible_party","value":""},{"name":"|Daily Living|Tra-1|date","value":""},{"name":"|Daily Living|Tra-1|status","value":"Not Started"},{"name":"|Daily Living|Tra-1|responsible_party","value":""},{"name":"|Family|Spo-2|date","value":""},{"name":"|Family|Spo-2|status","value":"Not Started"},{"name":"|Family|Spo-2|responsible_party","value":""},{"name":"|Family|Car-2|date","value":""},{"name":"|Family|Car-2|status","value":"Not Started"},{"name":"|Family|Car-2|responsible_party","value":""},{"name":"|Family|Fam-2|date","value":""},{"name":"|Family|Fam-2|status","value":"Not Started"},{"name":"|Family|Fam-2|responsible_party","value":""},{"name":"|Family|Res-2|date","value":""},{"name":"|Family|Res-2|status","value":"Not Started"},{"name":"|Family|Res-2|responsible_party","value":""},{"name":"|Family|Cli-2|date","value":""},{"name":"|Family|Cli-2|status","value":"Not Started"},{"name":"|Family|Cli-2|responsible_party","value":""},{"name":"|Family|Emo-2|date","value":""},{"name":"|Family|Emo-2|status","value":"Not Started"},{"name":"|Family|Emo-2|responsible_party","value":""},{"name":"|Family|Fam-2|date","value":""},{"name":"|Family|Fam-2|status","value":"Not Started"},{"name":"|Family|Fam-2|responsible_party","value":""},{"name":"|Finances|Lif-3|date","value":""},{"name":"|Finances|Lif-3|status","value":"Not Started"},{"name":"|Finances|Lif-3|responsible_party","value":""},{"name":"|Finances|Non-3|date","value":""},{"name":"|Finances|Non-3|status","value":"Not Started"},{"name":"|Finances|Non-3|responsible_party","value":""},{"name":"|Finances|Tra-3|date","value":""},{"name":"|Finances|Tra-3|status","value":"Not Started"},{"name":"|Finances|Tra-3|responsible_party","value":""},{"name":"|Finances|Ben-3|date","value":""},{"name":"|Finances|Ben-3|status","value":"Not Started"},{"name":"|Finances|Ben-3|responsible_party","value":""},{"name":"|Finances|Dis-3|date","value":""},{"name":"|Finances|Dis-3|status","value":"Not Started"},{"name":"|Finances|Dis-3|responsible_party","value":""},{"name":"|Finances|Fed-3|date","value":""},{"name":"|Finances|Fed-3|status","value":"Not Started"},{"name":"|Finances|Fed-3|responsible_party","value":""},{"name":"|Finances|Fid-3|date","value":""},{"name":"|Finances|Fid-3|status","value":"Not Started"},{"name":"|Finances|Fid-3|responsible_party","value":""},{"name":"|Finances|Fin-3|date","value":""},{"name":"|Finances|Fin-3|status","value":"Not Started"},{"name":"|Finances|Fin-3|responsible_party","value":""},{"name":"|Finances|Hea-3|date","value":""},{"name":"|Finances|Hea-3|status","value":"Not Started"},{"name":"|Finances|Hea-3|responsible_party","value":""},{"name":"|Finances|Mil-3|date","value":""},{"name":"|Finances|Mil-3|status","value":"Not Started"},{"name":"|Finances|Mil-3|responsible_party","value":""},{"name":"|Finances|Mil-3|date","value":""},{"name":"|Finances|Mil-3|status","value":"Not Started"},{"name":"|Finances|Mil-3|responsible_party","value":""},{"name":"|Finances|Soc-3|date","value":""},{"name":"|Finances|Soc-3|status","value":"Not Started"},{"name":"|Finances|Soc-3|responsible_party","value":""},{"name":"|Finances|Spe-3|date","value":""},{"name":"|Finances|Spe-3|status","value":"Not Started"},{"name":"|Finances|Spe-3|responsible_party","value":""},{"name":"|Finances|VBA-3|date","value":""},{"name":"|Finances|VBA-3|status","value":"Not Started"},{"name":"|Finances|VBA-3|responsible_party","value":""},{"name":"|Finances|Pro-3|date","value":""},{"name":"|Finances|Pro-3|status","value":"Not Started"},{"name":"|Finances|Pro-3|responsible_party","value":""},{"name":"|Finances|Eme-3|date","value":""},{"name":"|Finances|Eme-3|status","value":"Not Started"},{"name":"|Finances|Eme-3|responsible_party","value":""},{"name":"|Finances|Une-3|date","value":""},{"name":"|Finances|Une-3|status","value":"Not Started"},{"name":"|Finances|Une-3|responsible_party","value":""},{"name":"|Finances|Vet-3|date","value":""},{"name":"|Finances|Vet-3|status","value":"Not Started"},{"name":"|Finances|Vet-3|responsible_party","value":""},{"name":"|Health| Ad-4|date","value":""},{"name":"|Health| Ad-4|status","value":"Not Started"},{"name":"|Health| Ad-4|responsible_party","value":""},{"name":"|Health|-In-4|date","value":""},{"name":"|Health|-In-4|status","value":"Not Started"},{"name":"|Health|-In-4|responsible_party","value":""},{"name":"|Health|Cli-4|date","value":""},{"name":"|Health|Cli-4|status","value":"Not Started"},{"name":"|Health|Cli-4|responsible_party","value":""},{"name":"|Health|Beh-4|date","value":""},{"name":"|Health|Beh-4|status","value":"Not Started"},{"name":"|Health|Beh-4|responsible_party","value":""},{"name":"|Health|Ref-4|date","value":""},{"name":"|Health|Ref-4|status","value":"Not Started"},{"name":"|Health|Ref-4|responsible_party","value":""},{"name":"|Health|Sub-4|date","value":""},{"name":"|Health|Sub-4|status","value":"Not Started"},{"name":"|Health|Sub-4|responsible_party","value":""},{"name":"|Health|Tra-4|date","value":""},{"name":"|Health|Tra-4|status","value":"Not Started"},{"name":"|Health|Tra-4|responsible_party","value":""},{"name":"|Health|Spi-4|date","value":""},{"name":"|Health|Spi-4|status","value":"Not Started"},{"name":"|Health|Spi-4|responsible_party","value":""},{"name":"|Health|Hea-4|date","value":""},{"name":"|Health|Hea-4|status","value":"Not Started"},{"name":"|Health|Hea-4|responsible_party","value":""},{"name":"|Health|Vis-4|date","value":""},{"name":"|Health|Vis-4|status","value":"Not Started"},{"name":"|Health|Vis-4|responsible_party","value":""},{"name":"|Health|Pro-4|date","value":""},{"name":"|Health|Pro-4|status","value":"Not Started"},{"name":"|Health|Pro-4|responsible_party","value":""},{"name":"|Health|Rec-4|date","value":""},{"name":"|Health|Rec-4|status","value":"Not Started"},{"name":"|Health|Rec-4|responsible_party","value":""},{"name":"|Health|Reh-4|date","value":""},{"name":"|Health|Reh-4|status","value":"Not Started"},{"name":"|Health|Reh-4|responsible_party","value":""},{"name":"|Health|The-4|date","value":""},{"name":"|Health|The-4|status","value":"Not Started"},{"name":"|Health|The-4|responsible_party","value":""},{"name":"|Health|Den-4|date","value":""},{"name":"|Health|Den-4|status","value":"Not Started"},{"name":"|Health|Den-4|responsible_party","value":""},{"name":"|Health|Nut-4|date","value":""},{"name":"|Health|Nut-4|status","value":"Not Started"},{"name":"|Health|Nut-4|responsible_party","value":""},{"name":"|Health|Ref-4|date","value":""},{"name":"|Health|Ref-4|status","value":"Not Started"},{"name":"|Health|Ref-4|responsible_party","value":""},{"name":"|Health|Tra-4|date","value":""},{"name":"|Health|Tra-4|status","value":"Not Started"},{"name":"|Health|Tra-4|responsible_party","value":""},{"name":"|Health|PDH-4|date","value":""},{"name":"|Health|PDH-4|status","value":"Not Started"},{"name":"|Health|PDH-4|responsible_party","value":""},{"name":"|Legal|DES-5|date","value":""},{"name":"|Legal|DES-5|status","value":"Not Started"},{"name":"|Legal|DES-5|responsible_party","value":""},{"name":"|Legal|Civ-5|date","value":""},{"name":"|Legal|Civ-5|status","value":"Not Started"},{"name":"|Legal|Civ-5|responsible_party","value":""},{"name":"|Legal|Con-5|date","value":""},{"name":"|Legal|Con-5|status","value":"Not Started"},{"name":"|Legal|Con-5|responsible_party","value":""},{"name":"|Legal|Fam-5|date","value":""},{"name":"|Legal|Fam-5|status","value":"Not Started"},{"name":"|Legal|Fam-5|responsible_party","value":""},{"name":"|Legal|Gua-5|date","value":""},{"name":"|Legal|Gua-5|status","value":"Not Started"},{"name":"|Legal|Gua-5|responsible_party","value":""},{"name":"|Legal|Mil-5|date","value":""},{"name":"|Legal|Mil-5|status","value":"Not Started"},{"name":"|Legal|Mil-5|responsible_party","value":""},{"name":"|Legal|Vet-5|date","value":""},{"name":"|Legal|Vet-5|status","value":"Not Started"},{"name":"|Legal|Vet-5|responsible_party","value":""},{"name":"|Legal|Cit-5|date","value":""},{"name":"|Legal|Cit-5|status","value":"Not Started"},{"name":"|Legal|Cit-5|responsible_party","value":""},{"name":"|Legal|Ref-5|date","value":""},{"name":"|Legal|Ref-5|status","value":"Not Started"},{"name":"|Legal|Ref-5|responsible_party","value":""},{"name":"|Military|Non-6|date","value":""},{"name":"|Military|Non-6|status","value":"Not Started"},{"name":"|Military|Non-6|responsible_party","value":""},{"name":"|Military|Awa-6|date","value":""},{"name":"|Military|Awa-6|status","value":"Not Started"},{"name":"|Military|Awa-6|responsible_party","value":""},{"name":"|Military|Con-6|date","value":""},{"name":"|Military|Con-6|status","value":"Not Started"},{"name":"|Military|Con-6|responsible_party","value":""},{"name":"|Military|Lin-6|date","value":""},{"name":"|Military|Lin-6|status","value":"Not Started"},{"name":"|Military|Lin-6|responsible_party","value":""},{"name":"|Military|Mil-6|date","value":""},{"name":"|Military|Mil-6|status","value":"Not Started"},{"name":"|Military|Mil-6|responsible_party","value":""},{"name":"|Military|Ser-6|date","value":""},{"name":"|Military|Ser-6|status","value":"Not Started"},{"name":"|Military|Ser-6|responsible_party","value":""},{"name":"|Military|Dis-6|date","value":""},{"name":"|Military|Dis-6|status","value":"Not Started"},{"name":"|Military|Dis-6|responsible_party","value":""},{"name":"|Military|Non-6|date","value":""},{"name":"|Military|Non-6|status","value":"Not Started"},{"name":"|Military|Non-6|responsible_party","value":""},{"name":"|Military|Pro-6|date","value":""},{"name":"|Military|Pro-6|status","value":"Not Started"},{"name":"|Military|Pro-6|responsible_party","value":""},{"name":"|Military|Res-6|date","value":""},{"name":"|Military|Res-6|status","value":"Not Started"},{"name":"|Military|Res-6|responsible_party","value":""},{"name":"|Military|Com-6|date","value":""},{"name":"|Military|Com-6|status","value":"Not Started"},{"name":"|Military|Com-6|responsible_party","value":""},{"name":"|Military|Oth-6|date","value":""},{"name":"|Military|Oth-6|status","value":"Not Started"},{"name":"|Military|Oth-6|responsible_party","value":""},{"name":"|Spirituality|Ret-7|date","value":""},{"name":"|Spirituality|Ret-7|status","value":"Not Started"},{"name":"|Spirituality|Ret-7|responsible_party","value":""},{"name":"|Spirituality|Cha-7|date","value":""},{"name":"|Spirituality|Cha-7|status","value":"Not Started"},{"name":"|Spirituality|Cha-7|responsible_party","value":""},{"name":"|Spirituality|Cou-7|date","value":""},{"name":"|Spirituality|Cou-7|status","value":"Not Started"},{"name":"|Spirituality|Cou-7|responsible_party","value":""},{"name":"|Spirituality|Sup-7|date","value":""},{"name":"|Spirituality|Sup-7|status","value":"Not Started"},{"name":"|Spirituality|Sup-7|responsible_party","value":""},{"name":"submit","value":"Submit"}];
+
+//     var json = { 'domains':[] };
+//     jQuery.each(stuff, function(i, field) {
+//         if (field['name'].charAt(0) == '|') {
+//             var split = field['name'].split('|');
+//             var domainName = split[1];
+//             var catName = split[2];
+//             var fieldName = split[3];
+            
+//             var domain = null;
+//             $(json['domains']).each(function(index, data) {
+//                 if (data['name'] == domainName) {
+//                     domain = data;
+//                     return false;
+//                 }
+//             });
+
+//             if (!domain) {
+//                 domain = {'name':domainName, 'categories':[]};
+//                 json['domains'].push(domain);
+//             }
+
+//             var category = null;
+//             $(domain['categories']).each(function(index, data) {
+//                 if (data['name'] == catName) {
+//                     category = data;
+//                     return false;
+//                 }
+//             });
+
+//             if (!category) {
+//                 category = {'name':catName};
+//                 domain['categories'].push(category);
+//             }
+
+//             category[fieldName] = field['value'];
+//         } else {
+//             json[field['name']] = field['value'];
+//         }
+//     });
+
+//     console.log(json);
+
+function createDomainQuestionList(jsonQuestions) {
+    var questionList = jsonQuestions;
+    var listhtml = "";
+    //console.log(questionList.length);
+        for (var i=0; i < questionList.length; i++)
+        {
+            var questionDomain = questionList[i];
+            var domain = questionDomain.domain;
+            //console.log(domain);
+            var categories = questionDomain.categories;
+            
+            if (domain && categories) {
+                listhtml = listhtml + '<div data-role="header"><h1>' + domain + '</h1></div>';
+            
+                for (var z in categories)
+                {
+                    //console.log ('   ' + categories[z]);
+                    var category = categories[z];
+                    var catID = category.substring(0,3) + "-" + i + "-" + z;
+                    listhtml += '<div class="container"><fieldset data-role="controlgroup">';
+                    listhtml += '<div role="heading"><h3>Category: ' + category + '</h3></div>';
+                    //listhtml += '<div role="heading"><b>Domain: </b>' + domain +'<br /> <b>Category:</b> ' + category + '</div>';
+                    listhtml += '<input type="hidden" name="domain" value="' + domain + '" disabled>';
+                    listhtml += '<input type="hidden" name="category" value="' + category + '" disabled>';
+                    listhtml += '<table width="100%"><tbody>'; 
+                    listhtml += '<tr>';
+                    //listhtml += '<div data-role="fieldcontain">';
+                    listhtml += '<th scope="row">';
+                    listhtml += '<label for="|' + domain + '|' + catID + '|date" ><b>Date</b></label>';
+                    listhtml += '</th>';
+                    //listhtml += '<input type="date" data-mini="true" name="' + domain + '_' + catID + '_date" id="' + domain + '_' + catID + '_date" value="" class="ui-input-text ui-body-c ui-corner-all ui-shadow-inset">';
+                    //listhtml += '</div>';
+                    listhtml += '<th scope="row">';
+                    listhtml += '<label for="|' + domain + '|' + catID + '|status" >Status</label>';
+                    listhtml += '</th>';
+                    listhtml += '</tr>';
+                    listhtml += '<tr>';
+                    //listhtml += '<div data-role="fieldcontain">';
+                    //listhtml += '<label for="' + domain + '_'+ catID + '_status" class="select">Status:</label>';
+                    listhtml += '<td><input type="date" data-mini="true" name="|' + domain + '|' + catID + '|date" id="|' + domain + '|' + catID + '|date" value="" class="ui-input-text ui-body-c ui-corner-all ui-shadow-inset"></td>';
+                    //listhtml += '<label for="' + z + '_status" >Status</label>';
+                    listhtml += '<td><select data-mini="true" name="|' + domain + '|' + catID + '|status" id="' + catID + '|'+ z + '|status">';
+                    listhtml += '<option value="Not Started">Not Started</option>';
+                    listhtml += '<option value="In Progress">In Progress</option>';
+                    listhtml += '<option value="Completed">Completed</option>';
+                    listhtml += '<option value="NA">N/A</option>';
+                    listhtml += '</select></td>';
+                    //listhtml += '</div>';
+                    listhtml += '</tr>';
+                    listhtml += '</tbody></table>';
+                    listhtml += '<div data-role="fieldcontain">';
+                    listhtml += '<label for="|' + domain + '|'+ catID + '|responsible_party">Responsible Party:</label>';
+                    listhtml += '<input type="text" name="|' + domain + '|'+ catID + '|responsible_party" id="|' + domain + '|'+ catID + '|responsible_party" value=""  />';
+                    listhtml += '</div>';
+                    listhtml += '</fieldset></div><br />';
+                }
+                //listhtml += '</div>';
+            
+            }
+        }
+    $('#domain_questions').append(listhtml).trigger('create');
+    $(window).scrollTop($(document).height())
+}
+
+function hideSiblings(child) {
+    var thisIndex = $('#'+child).index();
+    console.log('Index is ' + thisIndex);
+    $('#'+child).siblings().not(':lt('+thisIndex+')').hide();    
+    //    $(child).not(':eq(0)').hide();
+    
+}
+function removeSiblings(child) {
+    var thisIndex = $('#'+child).index();
+    var itemCount = $('#'+child).siblings().each(function(){
+        if(thisIndex < $(this).index()) $(this).remove();
+    });
+    
+}
+
+function getDataURL(dataFile) {
+    var result = 'data/';
+    if(isPhoneGapRunning) {
+        if(device.name == 'iPhone Simulator') {
+            //result = 'data/'
+        }
+    }
+    result += dataFile;    
+    return result;
+}
+
+function loadJSONQuestions(jsonFile) {
+    console.log(getDataURL(jsonFile));
+    $.mobile.showPageLoadingMsg();
+    $.ajax({
+        url:getDataURL(jsonFile),
+        dataType: 'json',
+        success: function(data){
+            console.log('json success');
+            jsonDomainQuestions = $(data);
+            createDomainQuestionList(jsonDomainQuestions);
+            $.mobile.hidePageLoadingMsg();
+        }
+    });
+}
+
+function loadWorkflow(xmlFile) {
+    console.log(getCurrentPage() + '       ' +getDataURL(xmlFile));
+    $.mobile.showPageLoadingMsg();
+    $.ajax({
+        url:getDataURL(xmlFile),
+        dataType: 'xml',
+        success: function(data){
+            console.log('xml success');
+            xmlWorkFlow = $(data);
+            parseWorkflow(xmlWorkFlow, 0, 0, 0);
+            $.mobile.hidePageLoadingMsg();
+        }
+    })
+}
+
+function parseWorkflow(xmlData, workflowCount, stepIndex, positiveOrNeg) {
+    var currentIndex = 0;
+    var nextPiece = false;
+    var currentStep = stepIndex;
+    var currentWFC = workflowCount;
+    $('step',xmlData).each(function(){
+        if(currentStep == currentIndex){
+            var posStepID = $(this).attr('positiveStepId'),
+            negStepID = $(this).attr('negativeStepId'),
+            neutStepID = $(this).attr('neutralStepId'),
+            stepTitle = $(this).find('title').text(),
+            stepContent = $(this).find('content').text(),
+            stepDetailedContent = $(this).find('detailedContent').text(),
+            newContainerID = 'stepDiv'+currentWFC;
+            $('#algorithmSteps').append ('<div id="' + newContainerID + '" ></div>');
+            var html = '';
+            if(currentWFC > 0) {
+                switch(positiveOrNeg) {
+                    case -1:
+                        html += '<div class="arrowDownRight"></div>';
+                        break;
+                    case 0:
+                        html += '<div class="arrowDownMiddle"></div>';
+                        break;
+                    case 1:
+                        html += '<div class="arrowDownLeft"></div>';
+                        break;
+                }
+            } 
+
+            if(stepTitle != '') html += '<h4>' + stepTitle + '</h4>';
+            if(stepContent != '') html +='<div class="ui-content ui-grid-solo"><div class="ui-block-a">' + stepContent + '</div></div>';
+            if(stepDetailedContent != '') html +='<div>' + stepDetailedContent + '</div>';
+            if(neutStepID > 0){
+               // html += '<div data-role="footer">';
+                html += '<a  href="javascript:void(0);" onclick="makeDecision(\''+ newContainerID + '\',' + (currentWFC + 1) + ',' + neutStepID + ',0);" data-role="button" data-theme="b" >Next Section</a>';
+               // html += '</div>';
+            } else if (posStepID > 0) {
+                html += '<div class="ui-grid-a"><div class="ui-block-a" >';
+                html += '<a href="javascript:void(0);" data-role="button" onclick="makeDecision(\''+ newContainerID + '\',' + (currentWFC + 1) + ',' + posStepID + ',1);">Yes</a>';
+                html += '</div><div class="ui-block-b" >';
+                html += '<a href="javascript:void(0);" data-role="button" onclick="makeDecision(\''+ newContainerID + '\',' + (currentWFC + 1) + ',' + negStepID + ',-1);">No</a>';
+                html += '</div></div>';
+            } else {
+                nextPiece = true;
+            }
+
+            var position = $('#' + newContainerID).html(html).trigger('create').fadeIn().position();
+            if(nextPiece) {
+                currentWFC++;
+                currentStep++;
+            } else {
+                $.mobile.silentScroll(position.top);
+            }
+        }
+        currentIndex++;
+    });
+}
+
+function makeDecision(target, workflowCount, step, positiveOrNeg) {
+    //removeSiblings(target);
+    parseWorkflow(xmlWorkFlow, workflowCount, step, positiveOrNeg);
+}
+
+function adjustHistory() {
+    historyCount--;
+    console.log("historyCount = " + historyCount);
+}
+
+function goHome() {
+    console.log("go(" + historyCount + ")");
+    history.go(historyCount);
+    historyCount = 0;
+}
+
+function testLocalStorage(){
+    var result = false;
+    if (typeof(localStorage) == 'undefined' ) {
+        console.log('Your browser does not support HTML5 localStorage. Try upgrading.');
+    } else {
+        console.log('Your browser supports HTML5 localStorage.');
+        try {
+            localStorage.setItem("name", "Hello World!"); //saves to the database, "key", "value"
+            result = true;
+        } catch (e) {
+            console.log(e);
+            if (e == QUOTA_EXCEEDED_ERR) {
+                console.log('Quota exceeded!'); //data wasn't successfully saved due to quota exceed so throw an error
+            }
+        }
+        localStorage.removeItem("name"); //deletes the matching item from the database
+    }
+    return result;
+}
+
+function logPageChange(){
+    console.log('logPageChange Called');
+    logAnalytics('Page: '+ getCurrentPage());
+}
+
+function getCurrentPage() {
+    var base = 'www';
+    var result = '';
+    if(location.hash) 
+        result = location.hash.substring(1);
+    else 
+        result = location.pathname;
+    var path = $.mobile.path.parseUrl(result).pathname;
+    var indexPosition = path.indexOf(base);
+    if(indexPosition > -1)
+        path = path.substring(path.indexOf(base)+base.length+1);
+    indexPosition = path.indexOf('&');
+    if(indexPosition > -1) {
+        var bar = $('.ui-header', $.mobile.activePage);
+        var subPage = 'Nested-List ' + $('.ui-title', bar).html();
+        path = path.substring(0,indexPosition) + ' ' + subPage;
+    }
+    return path;
+}
+
+function setDefaultTransition() {
+    var winwidth = $( window ).width(),
+    trans ="fade";
+		
+    if( winwidth >= 2000 ){
+        trans = "none";
+    }
+    else if( winwidth >= 650 ){
+        trans = "fade";
+    }
+
+    $.mobile.defaultPageTransition = trans;
+}
+
+$(function(){
+    setDefaultTransition();
+    $( window ).bind( "throttledresize", setDefaultTransition );
+});
+
+$('div').live('pageshow',function(event, ui){
+    if(isPhoneGapRunning){
+        logPageChange();
+    }
+    adjustHistory();
+});
+
+$('#checklistMain').live('pageshow',function(event, ui){
+    historyCount = 0;
+    loadWorkflow('checklist.xml');
+    $("form.clform").live("submit", handleForm);  
+});
+
+
+$('#domainQuestions').live('pageshow',function(event, ui){
+    loadJSONQuestions('checklist.json');  
+});

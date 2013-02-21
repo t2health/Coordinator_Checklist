@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>DoD/VA lead Coordinator Checklist</title>
+    <script type="text/javascript" src="cordova-2.2.0.js"></script>
+    <link rel="stylesheet"  href="css/themes/default/jquery.mobile-1.2.0.css" />
+    <link rel="stylesheet" href="css/jqm-docs.css"/>
+    <link rel="stylesheet" href="css/app.css"/>
+    <script src="js/jquery.js"></script>
+    <script src="js/overrides.js"></script>
+    <script src="js/jquery.mobile-1.2.0.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/checklist.js"></script>
+</head>
+<body>
+<div data-role="page" id="editPage" data-cache="never">
+    <div data-role="header" class="ui-bar-b" data-position="fixed">
+        <a href="list.html" data-icon="arrow-l">Home</a>
+        <h1 id="title">Edit Checklist</h1>
+        <!--<a href="#" id="print" data-icon="arrow-l">Print</a>-->
+    </div>
+    <div data-role="popup" id="confirmDialog" data-overlay-theme="a" data-theme="c" style="max-width:400px;" data-position-to="origin">
+        <div data-role="content" data-theme="d" role="main" style="text-align:center;">
+            <h3 class="ui-title">Are you sure you want to save this checklist?</h3>
+            <a href="#" data-role="button" data-rel="back" data-inline="true" data-theme="c" >Cancel</a>    
+            <a href="#" onclick="submitChecklist();" data-rel="back" data-role="button" data-inline="true" data-theme="b">Save</a>  
+        </div>
+    </div>
+
+    <div data-role="popup" id="successDialog" data-overlay-theme="a" data-theme="c" style="width:500px;">
+        <div data-role="content" data-theme="d" role="main" style="text-align:center;">
+            <h1 class="ui-title" data-role="heading" aria-level="1">Checklist Saved</h1>
+        </div>
+    </div>
+    <div data-role="popup" id="failDialog" data-overlay-theme="a" data-theme="c" style="width:500px;">
+        <div data-role="content" data-theme="d" role="main" style="text-align:center;">
+            <h1 class="ui-title" data-role="heading" aria-level="1">Error Saving</h1>
+        </div>
+    </div>
+    <form method="post" id="checklistForm" class="clform" data-ajax="false">
+    <div data-role="content" id="algorithmSteps"></div>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,132 @@
+[
+    {
+        "domain": "Career",
+        "categories": [
+            "Career Counseling",
+            "Education",
+            "Employment",
+            "Licensure/ Certification/Security Clearances",
+            "Vocational Rehabilitation and Employment (VBA, VHA, Compensated Work Therapy, etc.)",
+            "Referral and coordination of career services with Department of Labor"
+        ]
+    },
+    {
+        "domain": "Daily Living",
+        "categories": [
+            "Communication and Translation",
+            "Adaptive Equipment I Assistive Technology",
+            "Driving Privileges",
+            "Housing Adaptation (SAH/SHA/HISA)",
+            "Auto Grant",
+            "Clothing Allowance Finances",
+            "Community Re-integration (NGO/VSO support etc.)",
+            "Emergency and Disaster Planning",
+            "Home Care Services",
+            "Homemaker and Home Health Aide (HHA) Services",
+            "Housing (Permanent/Temporary/Homeless)",
+            "Independent Living",
+            "Self-Care",
+            "Special VA Programs (CWT, HBPC, MHICM,TBI/AL, Medical Foster Homes, Veteran Directed Home and Community Based Programs)",
+            "Transportation"
+        ]
+    },
+    {
+        "domain": "Family",
+        "categories": [
+            "Spouse/Family Orders (Lodging, Travel, Meals, etc.)",
+            "Caregiver Support",
+            "Family Medical Leave Act",
+            "Respite Care",
+            "Client Death",
+            "Emotional Support",
+            "Family Assistance"
+        ]
+    },
+    {
+        "domain": "Finances",
+        "categories": [
+            "Life Insurance (TSGLI, VGLI, FGLI, SDVI, etc.)",
+            "Non-Medical Bills/Debt",
+            "Transition From Military to VA Compensation Process",
+            "Benefits Counseling",
+            "Disability Compensation",
+            "Federal and State Income Tax",
+            "Fiduciary",
+            "Financial Counseling and Plan of Action (POA)",
+            "Health Insurance (SSDI, CHAMPVA, TRICARE, etc.)",
+            "Military Combat Specialty Pay & Pay and Allowance Continuation (PAC)",
+            "Military Pay",
+            "Social Security Benefits",
+            "Special Compensation for Assistance with Activities of Daily Living (SCAADL)",
+            "VBA Loan Guaranty",
+            "Property Taxes",
+            "Emergency Financial Relief Resources",
+            "Unemployment Compensation",
+            "Veteran Compensation and Pension & VA Claims"
+        ]
+    },
+    {
+        "domain": "Health",
+        "categories": [
+            "Advance Directives/Health Care Plan of Action (POA)",
+            "Integrative Medicine",
+            "Clinical Case Management",
+            "Behavioral Health (including Suicidal/ Health Homicidal issues)",
+            "Referral and coordination with the VHA Vet Center",
+            "Substance Abuse",
+            "Traumatic Brain Injury care",
+            "Spinal Cord Injuries/Disorder Care",
+            "Hearing/ Audiology",
+            "Vision (Ophthalmology/Optometry)",
+            "Prosthetics",
+            "Recreation Therapy and Adaptive Sports/ Reconditioning",
+            "Rehabilitation (Kinesiotherapy, Physical Therapy, Occupational Therapy, Speech Therapy Blind/Vision Rehabilitation)",
+            "Therapy and Service Dogs",
+            "Dental Coverage",
+            "Nutrition",
+            "Referral to VHA for Functional Capacity Evaluations (for the return to work assessment)",
+            "Transition to VA care",
+            "PDHA/PDHRA"
+        ]
+    },
+    {
+        "domain": "Legal",
+        "categories": [
+            "DES-JAG (judge Advocate General Consulting",
+            "Civilian Court",
+            "Conservatorship (Property)",
+            "Family Court",
+            "Guardianship/Power of Attorney (POA)",
+            "Military Court",
+            "Veterans Court",
+            "Citizenship (Service Member, Veteran, Caregiver, etc.)",
+            "Referral and coordination with Veterans Service Organizations"
+        ]
+    },
+    {
+        "domain": "Military",
+        "categories": [
+            "Non-Clinical Case Management",
+            "Awards and Decorations",
+            "Continue on Active Duty or Active Reserve (COAD/COAR)",
+            "Line of Duty",
+            "Military and Personal Belongings",
+            "Service Member Orders",
+            "Disability Evaluation",
+            "Non-Medical Retirement & Separation",
+            "Promotions",
+            "Reserve/Guard (Transition Assistance Advisors, etc.)",
+            "Command Issues (ongoing communication with Servicemebmer command)",
+            "Other Military Considerations"
+        ]
+    },
+    {
+        "domain": "Spirituality",
+        "categories": [
+            "Retreats",
+            "Chaplin/Religious Services",
+            "Counseling",
+            "Support Groups"
+        ]
+    }
+]

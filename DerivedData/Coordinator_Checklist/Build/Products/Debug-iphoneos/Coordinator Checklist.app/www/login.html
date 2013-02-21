@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+            <title>DoD/VA lead Coordinator Checklist</title>
+            <script type="text/javascript" src="cordova-2.2.0.js"></script>
+            <link rel="stylesheet"  href="css/themes/default/jquery.mobile-1.2.0.css" />
+            <link rel="stylesheet" href="css/jqm-docs.css"/>
+            <link rel="stylesheet" href="css/app.css"/>
+            <script src="js/jquery.js"></script>
+            <script src="js/overrides.js"></script>
+            <script src="js/jquery.mobile-1.2.0.js"></script>
+            <script src="js/login.js"></script>
+            <script src="js/app.js"></script>
+            <script src="js/checklist.js"></script>
+            <script src="js/nav.js"></script>
+    </head>
+    <body>
+            <div data-role="page" id="loginPage" data-cache="never">
+                <div data-role="content" style="max-width: 600px; margin: 0 auto;">
+                            <fieldset class="ui-grid-solo">
+                                <div class="" style="text-align:center;">
+                                    <img style="max-width:70%; margin-top:50px;" src="img/logo.png" alt="DoD/VA lead Coordinator Checklist" />
+                                </div>
+                                <br><br>
+                                <div class="" id="login">
+                                    <div data-role="fieldcontain" class="ui-hide-label">
+                                        <label for="username">Username:</label>
+                                        <input type="text" name="username" id="username" value="" placeholder="Username"/>
+                                    </div>
+
+                                    <div data-role="fieldcontain" class="ui-hide-label">
+                                        <label for="username">Password:</label>
+                                        <input type="password" name="password" id="password" value="" placeholder="Password"/>
+                                    </div>
+
+                                    <button type="v" data-theme="b" onclick="doLogin()">Login</button>
+
+                                    <div style="text-align: center;">
+                                    <label id="login_message" style="display:none;">Invalid username or password.</label>
+                                    <label id="connect_message" style="display:none;">Unable to reach checklist server.</label>
+                                    <label id="register_message" style="display:none;">Account registered successfully.</label>
+                                </div>
+                                </div>
+                            </fieldset>
+                        <div class="footer">
+                            <img src="img/Dod-seal.png" alt="DoD/VA lead Coordinator Checklist" />
+                            <img src="img/va-seal.png" alt="DoD/VA lead Coordinator Checklist" />
+                        </div>
+
+                    <div class="disclaimer">
+                        <h2>DoD Information Systems Notice and Consent</h2>
+                        
+                        <p>You are accessing a U.S. Government (USG) Information System (IS) that is provided for USG-authorized use only.</p>
+
+                        <h2>By using this IS (which includes any device attached to this IS), you consent to the following conditions:</h2>
+                        <ul data-role="listview" data-inset="true">
+                            <li>The USG routinely intercepts and monitors communications on this IS for purposes including, but not limited to, penetration testing, COMSEC monitoring, network operations and defense, personnel misconduct (PM), law enforcement (LE), and counterintelligence (CI) investigations.</li>
+                            <li>At any time, the USG may inspect and seize data stored on this IS.</li>
+                            <li>Communications using, or data stored on, this IS are not private, are subject to routine monitoring, interception, and search, and may be disclosed or used for any USG-authorized purpose.</li>
+                            <li>This IS includes security measures (e.g., authentication and access controls) to protect USG interests not for your personal benefit or privacy.</li>
+                        </ul>
+                        <p>Notwithstanding the above, using this IS does not constitute consent to PM, LE or CI investigative searching or monitoring of the content of privileged communications, or work product, related to personal representation or services by attorneys, psychotherapists, or clergy, and their assistants. Such communications and work product are private and confidential. See User Agreement for details.</p>
+                    </div>
+                    </div>
+            </div>
+    </body>
+</html>
+

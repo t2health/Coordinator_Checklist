@@ -1,0 +1,947 @@
+TCoordinator_Checklist
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Info.plist Coordinator_Checklist/Coordinator_Checklist-Info.plist
+cPhaseScriptExecution "Touch www folder" /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Script-304B58A110DAC018002A0835.sh
+cCpResource www DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/www
+cCopyPlistFile /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Cordova.plist Coordinator_Checklist/Resources/../Cordova.plist
+cCpResource Coordinator_Checklist/Resources/icons/icon.png DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/icon.png
+cCpResource Coordinator_Checklist/Resources/icons/icon-72.png DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/icon-72.png
+cCpResource Coordinator_Checklist/Resources/icons/icon@2x.png DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/icon@2x.png
+cCpResource Coordinator_Checklist/Resources/Capture.bundle DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Capture.bundle
+cCopyStringsFile /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/en.lproj/Localizable.strings Coordinator_Checklist/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/es.lproj/Localizable.strings Coordinator_Checklist/Resources/es.lproj/Localizable.strings
+cCompileXIB /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/MainViewController.xib
+cCopyStringsFile /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/se.lproj/Localizable.strings Coordinator_Checklist/Resources/se.lproj/Localizable.strings
+cCopyStringsFile /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/de.lproj/Localizable.strings Coordinator_Checklist/Resources/de.lproj/Localizable.strings
+cCpResource Coordinator_Checklist/Resources/splash/Default-Landscape@2x~ipad.png DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-Landscape@2x~ipad.png
+cCpResource Coordinator_Checklist/Resources/splash/Default-Landscape~ipad.png DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-Landscape~ipad.png
+cCpResource Coordinator_Checklist/Resources/splash/Default-Portrait@2x~ipad.png DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-Portrait@2x~ipad.png
+cCpResource Coordinator_Checklist/Resources/splash/Default-Portrait~ipad.png DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-Portrait~ipad.png
+cCpResource Coordinator_Checklist/Resources/splash/Default@2x~iphone.png DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default@2x~iphone.png
+cCpResource Coordinator_Checklist/Resources/splash/Default~iphone.png DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default~iphone.png
+cCpResource Coordinator_Checklist/Resources/splash/Default-568h@2x~iphone.png DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-568h@2x~iphone.png
+cCpResource Coordinator_Checklist/Assets/blackbottomfade.png DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/blackbottomfade.png
+cCpResource Coordinator_Checklist/Assets/blacktopfade.png DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/blacktopfade.png
+cCpResource Coordinator_Checklist/Assets/eula.htm DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/eula.htm
+cCpResource Coordinator_Checklist/Assets/large.css DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/large.css
+cCpResource Coordinator_Checklist/Assets/viewer.css DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/viewer.css
+cCopyPlistFile /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Coordinator_Checklist.plist Coordinator_Checklist/Resources/../../Coordinator_Checklist.plist
+cDataModelVersionCompile /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Coordinator_Checklist.momd /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Models/Coordinator_Checklist.xcdatamodeld
+cProcessPCH /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/PrecompiledHeaders/Coordinator_Checklist-Prefix-bvbzjazbdaszrrbxdjrivvkwewnb/Coordinator_Checklist-Prefix.pch.pth Coordinator_Checklist/Coordinator_Checklist-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/MainViewController.o /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/AppDelegate.o /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/main.o /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/PluginFlurry.o /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Plugins/PluginFlurry.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/Analytics.o /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Analytics/Analytics.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/NSData+Base64.o /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Controllers/Utils/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/ViewReaderController.o /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Controllers/ViewReaderController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/HTML5FormPlugin.o /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Plugins/HTML5FormPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
+c0000000050B38F430000000000000110
+t1353944899
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000005078749000000000001EAFC0
+t1350071440
+s2011072
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000005078748F00000000000C0EF0
+t1350071439
+s790256
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c000000005078748F0000000000193640
+t1350071439
+s1652288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000005078749000000000003D2B80
+t1350071440
+s4008832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c00000000507874900000000000215D60
+t1350071440
+s2186592
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c0000000050787490000000000030BB10
+t1350071440
+s3193616
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000507874900000000000228FD0
+t1350071440
+s2265040
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c0000000050787490000000000009C220
+t1350071440
+s639520
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c00000000507874900000000000085620
+t1350071440
+s546336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005078749000000000003DCEF0
+t1350071440
+s4050672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000005078749100000000002C6C10
+t1350071441
+s2911248
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000005078749100000000001144F0
+t1350071441
+s1131760
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000005078749100000000000BCB50
+t1350071441
+s772944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000005078749100000000001D57A0
+t1350071441
+s1922976
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c0000000050787491000000000006CC50
+t1350071441
+s445520
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000507874920000000000AB3D60
+t1350071442
+s11222368
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Analytics/Analytics.m
+c0000000050CB8FB60000000000000EC5
+t1355517878
+s3781
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Assets/blackbottomfade.png
+c000000004DF14DF200000000000000E4
+t1307659762
+s228
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Assets/blacktopfade.png
+c000000004DF14DF200000000000000E4
+t1307659762
+s228
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Assets/eula.htm
+c000000004F29AABE00000000000016D8
+t1328130750
+s5848
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Assets/large.css
+c000000004DF14DF20000000000000162
+t1307659762
+s354
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Assets/viewer.css
+c000000004DF14DF20000000000000393
+t1307659762
+s915
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/AppDelegate.m
+c0000000050CB9646000000000000344B
+t1355519558
+s13387
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/MainViewController.m
+c0000000050CB95660000000000001B21
+t1355519334
+s6945
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/MainViewController.xib
+c0000000050C119BC0000000000001759
+t1354832316
+s5977
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Controllers/FormLogController.m
+c0000000050CF8D2800000000000008F9
+t1355779368
+s2297
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Controllers/StudyLogController.m
+c0000000050CB90770000000000000BD7
+t1355518071
+s3031
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Controllers/Utils/NSData+Base64.m
+c000000004F31B2310000000000001388
+t1328656945
+s5000
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Controllers/ViewReaderController.m
+c00000000508078A200000000000028E9
+t1350596770
+s10473
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Coordinator_Checklist-Prefix.pch
+c0000000050C119BC00000000000003DB
+t1354832316
+s987
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/FlurryAnalytics/libFlurryAnalytics.a
+c000000004E55288200000000001A630C
+t1314203778
+s1729292
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Models/Coordinator_Checklist.xcdatamodeld
+c0000000050CB907A0000000000000066
+t1355518074
+s102
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Models/LogFormData.m
+c0000000050CB8E3500000000000000CD
+t1355517493
+s205
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Plugins/HTML5FormPlugin.m
+c0000000050D0A56E0000000000000DC7
+t1355851118
+s3527
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Plugins/PluginFlurry.m
+c0000000050CB8F610000000000000A8D
+t1355517793
+s2701
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Resources/../../Coordinator_Checklist.plist
+c0000000050CF4D3F000000000000015D
+t1355763007
+s349
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Resources/../Cordova.plist
+c0000000050CF8D3800000000000007BD
+t1355779384
+s1981
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Resources/Capture.bundle
+c0000000050D25355000000000000030E
+t1355961173
+s782
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Resources/de.lproj/Localizable.strings
+c0000000050C119BC0000000000000485
+t1354832316
+s1157
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Resources/en.lproj/Localizable.strings
+c0000000050C119BC0000000000000470
+t1354832316
+s1136
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Resources/es.lproj/Localizable.strings
+c0000000050C119BC000000000000047D
+t1354832316
+s1149
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Resources/icons/icon-72.png
+c0000000050C119BC0000000000001350
+t1354832316
+s4944
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Resources/icons/icon.png
+c0000000050C119BC0000000000000F3E
+t1354832316
+s3902
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Resources/icons/icon@2x.png
+c0000000050C119BC0000000000001EBD
+t1354832316
+s7869
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Resources/se.lproj/Localizable.strings
+c0000000050C119BC0000000000000471
+t1354832316
+s1137
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Resources/splash/Default-568h@2x~iphone.png
+c0000000050C119BC0000000000055EBB
+t1354832316
+s351931
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Resources/splash/Default-Landscape@2x~ipad.png
+c0000000050C119BC0000000000176888
+t1354832316
+s1534088
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Resources/splash/Default-Landscape~ipad.png
+c0000000050C119BC00000000000674B7
+t1354832316
+s423095
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Resources/splash/Default-Portrait@2x~ipad.png
+c0000000050C119BC00000000001892C2
+t1354832316
+s1610434
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Resources/splash/Default-Portrait~ipad.png
+c0000000050C119BC0000000000066F23
+t1354832316
+s421667
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Resources/splash/Default@2x~iphone.png
+c0000000050C119BC0000000000055981
+t1354832316
+s350593
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Resources/splash/Default~iphone.png
+c0000000050C119BC0000000000016EC9
+t1354832316
+s93897
+
+N/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/main.m
+c0000000050C119BC0000000000000467
+t1354832316
+s1127
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/Analytics.o
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/Coordinator_Checklist.LinkFileList
+c0000000050E7215C000000000000090B
+t1357324636
+s2315
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/FormLogController.o
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/HTML5FormPlugin.o
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/LogFormData.o
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/MainViewController.o
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/NSData+Base64.o
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/PluginFlurry.o
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/StudyLogController.o
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/ViewReaderController.o
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Script-304B58A110DAC018002A0835.sh
+c0000000050E7215C0000000000000027
+t1357324636
+s39
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/PrecompiledHeaders/Coordinator_Checklist-Prefix-bvbzjazbdaszrrbxdjrivvkwewnb/Coordinator_Checklist-Prefix.pch.pth
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app.dSYM
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Capture.bundle
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Coordinator_Checklist
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Coordinator_Checklist.momd
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Coordinator_Checklist.plist
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Cordova.plist
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-568h@2x~iphone.png
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-Landscape@2x~ipad.png
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-Landscape~ipad.png
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-Portrait@2x~ipad.png
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-Portrait~ipad.png
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default@2x~iphone.png
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default~iphone.png
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Info.plist
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/MainViewController.nib
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/PkgInfo
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/blackbottomfade.png
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/blacktopfade.png
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/de.lproj/Localizable.strings
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/en.lproj/Localizable.strings
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/es.lproj/Localizable.strings
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/eula.htm
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/icon-72.png
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/icon.png
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/icon@2x.png
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/large.css
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/se.lproj/Localizable.strings
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/viewer.css
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/www
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/libCordova.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/reason/xcode/Coordinator_Checklist/www
+c0000000050E7132B0000000000000286
+t1357321003
+s646
+
+NCoordinator_Checklist/Coordinator_Checklist-Info.plist
+c0000000050CB817B0000000000000AA1
+t1355514235
+s2721
+
+CBuild AST from /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Analytics/Analytics.m
+r0
+
+CBuild AST from /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/AppDelegate.m
+r0
+
+CBuild AST from /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/MainViewController.m
+r0
+
+CBuild AST from /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Controllers/FormLogController.m
+r0
+
+CBuild AST from /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Controllers/StudyLogController.m
+r0
+
+CBuild AST from /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Controllers/Utils/NSData+Base64.m
+r0
+
+CBuild AST from /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Controllers/ViewReaderController.m
+r0
+
+CBuild AST from /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Models/LogFormData.m
+r0
+
+CBuild AST from /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Plugins/HTML5FormPlugin.m
+r0
+
+CBuild AST from /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Plugins/PluginFlurry.m
+r0
+
+CBuild AST from /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies7fda94dc5897b641^a796c9dc5897b641^--1(21%IDEActivityLogMessage2@66"Missing dependency target "CordovaLib (from CordovaLib.xcodeproj)"-379017436#18446744073709551615#0#-1#-----0#1#0#--18"Check dependencies36"511940F4-825A-4557-B9AC-76225DC67A3B-
+
+CCompileC DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/Analytics.o /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Analytics/Analytics.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s379017437.388921
+e379017437.550472
+r0
+xCompileC
+xDerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/Analytics.o
+x/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Analytics/Analytics.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Analytics/Analytics.m:29:
+oIn file included from /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Analytics/Analytics.h:34:
+o/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/AppDelegate.h:32:9: fatal error: 'Cordova/CDVViewController.h' file not found
+o#import <Cordova/CDVViewController.h>
+o        ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Analytics/Analytics.m46b263dd5897b641^27fa8cdd5897b641^-441"In file included from /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Analytics/Analytics.m:29:In file included from /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Analytics/Analytics.h:34:/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/AppDelegate.h:32:9: fatal error: 'Cordova/CDVViewController.h' file not found#import <Cordova/CDVViewController.h>        ^1 error generated.-0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Analytics/Analytics.m0000000000000000^4624"CompileC DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/Analytics.o Coordinator_Checklist/Analytics/Analytics.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reason/xcode/Coordinator_Checklist    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-generated-files.hmap -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-own-target-headers.hmap -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-all-target-headers.hmap -iquote /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-project-headers.hmap -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/include -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/usr/local/lib/include -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/UninstalledProducts/include -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/DerivedSources/i386 -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/DerivedSources -F/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator -include /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/PrecompiledHeaders/Coordinator_Checklist-Prefix-bvbzjazbdaszrrbxdjrivvkwewnb/Coordinator_Checklist-Prefix.pch -MMD -MT dependencies -MF /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/Analytics.d --serialize-diagnostics /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/Analytics.dia -c /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Analytics/Analytics.m -o /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/Analytics.o36"B3A233EF-CE61-419B-94E2-570B961F8607-
+
+CCompileC DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/AppDelegate.o /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s379017437.388897
+e379017437.550476
+r0
+xCompileC
+xDerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/AppDelegate.o
+x/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/AppDelegate.m:29:
+o/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/AppDelegate.h:32:9: fatal error: 'Cordova/CDVViewController.h' file not found
+o#import <Cordova/CDVViewController.h>
+o        ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/AppDelegate.m9ab263dd5897b641^c6f88cdd5897b641^-329"In file included from /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/AppDelegate.m:29:/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/AppDelegate.h:32:9: fatal error: 'Cordova/CDVViewController.h' file not found#import <Cordova/CDVViewController.h>        ^1 error generated.-0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/AppDelegate.m0000000000000000^4632"CompileC DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/AppDelegate.o Coordinator_Checklist/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reason/xcode/Coordinator_Checklist    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-generated-files.hmap -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-own-target-headers.hmap -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-all-target-headers.hmap -iquote /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-project-headers.hmap -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/include -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/usr/local/lib/include -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/UninstalledProducts/include -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/DerivedSources/i386 -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/DerivedSources -F/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator -include /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/PrecompiledHeaders/Coordinator_Checklist-Prefix-bvbzjazbdaszrrbxdjrivvkwewnb/Coordinator_Checklist-Prefix.pch -MMD -MT dependencies -MF /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/AppDelegate.dia -c /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/AppDelegate.m -o /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/AppDelegate.o36"2B7F44E6-9FC4-4A67-90B6-863AD9744D84-
+
+CCompileC DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/FormLogController.o /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Controllers/FormLogController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/HTML5FormPlugin.o /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Plugins/HTML5FormPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s379017437.389157
+e379017437.550490
+r0
+xCompileC
+xDerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/HTML5FormPlugin.o
+x/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Plugins/HTML5FormPlugin.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Plugins/HTML5FormPlugin.m:9:
+o/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Plugins/HTML5FormPlugin.h:10:9: fatal error: 'Cordova/CDVPlugin.h' file not found
+o#import <Cordova/CDVPlugin.h>
+o        ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Plugins/HTML5FormPlugin.m90c063dd5897b641^65fb8cdd5897b641^-320"In file included from /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Plugins/HTML5FormPlugin.m:9:/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Plugins/HTML5FormPlugin.h:10:9: fatal error: 'Cordova/CDVPlugin.h' file not found#import <Cordova/CDVPlugin.h>        ^1 error generated.-0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Plugins/HTML5FormPlugin.m0000000000000000^4656"CompileC DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/HTML5FormPlugin.o Coordinator_Checklist/Plugins/HTML5FormPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reason/xcode/Coordinator_Checklist    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-generated-files.hmap -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-own-target-headers.hmap -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-all-target-headers.hmap -iquote /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-project-headers.hmap -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/include -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/usr/local/lib/include -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/UninstalledProducts/include -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/DerivedSources/i386 -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/DerivedSources -F/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator -include /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/PrecompiledHeaders/Coordinator_Checklist-Prefix-bvbzjazbdaszrrbxdjrivvkwewnb/Coordinator_Checklist-Prefix.pch -MMD -MT dependencies -MF /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/HTML5FormPlugin.d --serialize-diagnostics /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/HTML5FormPlugin.dia -c /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Plugins/HTML5FormPlugin.m -o /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/HTML5FormPlugin.o36"CFA9E162-AE05-4239-A39C-9E2C5BB3F098-
+
+CCompileC DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/LogFormData.o /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Models/LogFormData.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/MainViewController.o /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s379017437.388895
+e379017437.449830
+r0
+xCompileC
+xDerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/MainViewController.o
+x/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/MainViewController.m:28:
+o/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/MainViewController.h:30:9: fatal error: 'Cordova/CDVViewController.h' file not found
+o#import <Cordova/CDVViewController.h>
+o        ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/MainViewController.m9bae63dd5897b641^f72173dd5897b641^-343"In file included from /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/MainViewController.m:28:/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/MainViewController.h:30:9: fatal error: 'Cordova/CDVViewController.h' file not found#import <Cordova/CDVViewController.h>        ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@44"'Cordova/CDVViewController.h' file not found-379017437#18446744073709551615#0#1(2@118"In file included from /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/MainViewController.m:28:-379017437#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@108"file://localhost/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/MainViewController.m0000000000000000^27#8#27#8#963#0#30"Apple LLVM compiler 4.1 Notice--2#27"com.apple.dt.IDE.diagnostic3@108"file://localhost/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/MainViewController.h0000000000000000^29#8#29#8#1017#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@108"file://localhost/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/MainViewController.m0000000000000000^4674"CompileC DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/MainViewController.o Coordinator_Checklist/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reason/xcode/Coordinator_Checklist    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-generated-files.hmap -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-own-target-headers.hmap -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-all-target-headers.hmap -iquote /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-project-headers.hmap -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/include -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/usr/local/lib/include -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/UninstalledProducts/include -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/DerivedSources/i386 -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/DerivedSources -F/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator -include /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/PrecompiledHeaders/Coordinator_Checklist-Prefix-bvbzjazbdaszrrbxdjrivvkwewnb/Coordinator_Checklist-Prefix.pch -MMD -MT dependencies -MF /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/MainViewController.dia -c /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/MainViewController.m -o /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/MainViewController.o36"CDD48DCB-F580-4398-BEB9-B59DE221B11F-
+
+CCompileC DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/NSData+Base64.o /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Controllers/Utils/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s379017437.388930
+e379017437.550374
+r1
+xCompileC
+xDerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/NSData+Base64.o
+x/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Controllers/Utils/NSData+Base64.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Controllers/Utils/NSData+Base64.meeb263dd5897b641^5af68cdd5897b641^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Controllers/Utils/NSData+Base64.m0000000000000000^4664"CompileC DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/NSData+Base64.o Coordinator_Checklist/Controllers/Utils/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reason/xcode/Coordinator_Checklist    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-generated-files.hmap -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-own-target-headers.hmap -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-all-target-headers.hmap -iquote /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-project-headers.hmap -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/include -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/usr/local/lib/include -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/UninstalledProducts/include -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/DerivedSources/i386 -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/DerivedSources -F/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator -include /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/PrecompiledHeaders/Coordinator_Checklist-Prefix-bvbzjazbdaszrrbxdjrivvkwewnb/Coordinator_Checklist-Prefix.pch -MMD -MT dependencies -MF /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/NSData+Base64.d --serialize-diagnostics /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/NSData+Base64.dia -c /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Controllers/Utils/NSData+Base64.m -o /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/NSData+Base64.o36"21447CB9-A0CA-4198-8361-1B35DD25FB4A-
+
+CCompileC DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/PluginFlurry.o /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Plugins/PluginFlurry.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s379017437.388917
+e379017437.550388
+r0
+xCompileC
+xDerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/PluginFlurry.o
+x/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Plugins/PluginFlurry.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Plugins/PluginFlurry.m:31:
+o/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Plugins/PluginFlurry.h:32:9: fatal error: 'Cordova/CDVPlugin.h' file not found
+o#import <Cordova/CDVPlugin.h>
+o        ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Plugins/PluginFlurry.m18b563dd5897b641^28ee8cdd5897b641^-315"In file included from /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Plugins/PluginFlurry.m:31:/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Plugins/PluginFlurry.h:32:9: fatal error: 'Cordova/CDVPlugin.h' file not found#import <Cordova/CDVPlugin.h>        ^1 error generated.-0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Plugins/PluginFlurry.m0000000000000000^4638"CompileC DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/PluginFlurry.o Coordinator_Checklist/Plugins/PluginFlurry.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reason/xcode/Coordinator_Checklist    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-generated-files.hmap -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-own-target-headers.hmap -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-all-target-headers.hmap -iquote /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-project-headers.hmap -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/include -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/usr/local/lib/include -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/UninstalledProducts/include -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/DerivedSources/i386 -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/DerivedSources -F/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator -include /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/PrecompiledHeaders/Coordinator_Checklist-Prefix-bvbzjazbdaszrrbxdjrivvkwewnb/Coordinator_Checklist-Prefix.pch -MMD -MT dependencies -MF /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/PluginFlurry.d --serialize-diagnostics /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/PluginFlurry.dia -c /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Plugins/PluginFlurry.m -o /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/PluginFlurry.o36"97A6EDCF-89B3-479C-ACC0-6A35F4ED7534-
+
+CCompileC DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/StudyLogController.o /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Controllers/StudyLogController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/ViewReaderController.o /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Controllers/ViewReaderController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s379017437.388941
+e379017437.550362
+r1
+xCompileC
+xDerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/ViewReaderController.o
+x/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Controllers/ViewReaderController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Controllers/ViewReaderController.mc8b363dd5897b641^0ef48cdd5897b641^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Controllers/ViewReaderController.m0000000000000000^4694"CompileC DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/ViewReaderController.o Coordinator_Checklist/Controllers/ViewReaderController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reason/xcode/Coordinator_Checklist    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-generated-files.hmap -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-own-target-headers.hmap -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-all-target-headers.hmap -iquote /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-project-headers.hmap -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/include -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/usr/local/lib/include -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/UninstalledProducts/include -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/DerivedSources/i386 -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/DerivedSources -F/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator -include /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/PrecompiledHeaders/Coordinator_Checklist-Prefix-bvbzjazbdaszrrbxdjrivvkwewnb/Coordinator_Checklist-Prefix.pch -MMD -MT dependencies -MF /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/ViewReaderController.d --serialize-diagnostics /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/ViewReaderController.dia -c /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Controllers/ViewReaderController.m -o /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/ViewReaderController.o36"7673A665-78B5-49FF-8AF6-21169DA6EE87-
+
+CCompileC DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/main.o /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s379017437.388909
+e379017437.550344
+r1
+xCompileC
+xDerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/main.o
+x/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/main.m6cb163dd5897b641^63f08cdd5897b641^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/main.m0000000000000000^4574"CompileC DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/main.o Coordinator_Checklist/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reason/xcode/Coordinator_Checklist    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-generated-files.hmap -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-own-target-headers.hmap -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-all-target-headers.hmap -iquote /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-project-headers.hmap -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/include -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/usr/local/lib/include -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/UninstalledProducts/include -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/DerivedSources/i386 -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/DerivedSources -F/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator -include /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/PrecompiledHeaders/Coordinator_Checklist-Prefix-bvbzjazbdaszrrbxdjrivvkwewnb/Coordinator_Checklist-Prefix.pch -MMD -MT dependencies -MF /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/main.dia -c /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/main.m -o /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/main.o36"5FF2E6D1-7AAF-4158-9E89-7BE914ECEC09-
+
+CCompileXIB /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/MainViewController.xib
+s379017436.840306
+e379017436.941363
+r1
+xCompileXIB
+x/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/MainViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compiling /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/MainViewController.xibaa2bd7dc5897b641^a4fcf0dc5897b641^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/MainViewController.xib0000000000000000^1009"CompileXIB Coordinator_Checklist/Classes/MainViewController.xib    cd /Users/reason/xcode/Coordinator_Checklist    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/MainViewController.nib /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Classes/MainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"1F9035A2-5572-4BFA-82D6-F4D6C29480E3-
+
+CCopyPlistFile /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Coordinator_Checklist.plist Coordinator_Checklist/Resources/../../Coordinator_Checklist.plist
+s379017436.881172
+e379017436.885653
+r1
+xCopyPlistFile
+x/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Coordinator_Checklist.plist
+xCoordinator_Checklist/Resources/../../Coordinator_Checklist.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy Coordinator_Checklist/Resources/../../Coordinator_Checklist.plist49a0e1dc5897b641^cfbae2dc5897b641^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Resources/../../Coordinator_Checklist.plist0000000000000000^706"CopyPlistFile DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Coordinator_Checklist.plist Coordinator_Checklist/Resources/../../Coordinator_Checklist.plist    cd /Users/reason/xcode/Coordinator_Checklist    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app -- Coordinator_Checklist/Resources/../../Coordinator_Checklist.plist36"54479FC7-82FA-4F4C-B4FB-98DEFE2BA807-
+
+CCopyPlistFile /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Cordova.plist Coordinator_Checklist/Resources/../Cordova.plist
+s379017436.836349
+e379017436.839095
+r1
+xCopyPlistFile
+x/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Cordova.plist
+xCoordinator_Checklist/Resources/../Cordova.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy Coordinator_Checklist/Resources/../Cordova.plist7638d6dc5897b641^39d1d6dc5897b641^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Resources/../Cordova.plist0000000000000000^658"CopyPlistFile DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Cordova.plist Coordinator_Checklist/Resources/../Cordova.plist    cd /Users/reason/xcode/Coordinator_Checklist    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app -- Coordinator_Checklist/Resources/../Cordova.plist36"F0037497-4596-4AFC-915F-C70AA8E11DD1-
+
+CCopyStringsFile /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/de.lproj/Localizable.strings Coordinator_Checklist/Resources/de.lproj/Localizable.strings
+s379017436.842293
+e379017436.850403
+r1
+xCopyStringsFile
+x/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/de.lproj/Localizable.strings
+xCoordinator_Checklist/Resources/de.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy Coordinator_Checklist/Resources/de.lproj/Localizable.strings4facd7dc5897b641^9ab4d9dc5897b641^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Resources/de.lproj/Localizable.strings0000000000000000^749"CopyStringsFile DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/de.lproj/Localizable.strings Coordinator_Checklist/Resources/de.lproj/Localizable.strings    cd /Users/reason/xcode/Coordinator_Checklist    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/de.lproj -- Coordinator_Checklist/Resources/de.lproj/Localizable.strings36"355D7610-43D0-449A-A54F-2BFD9C7649D3-
+
+CCopyStringsFile /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/en.lproj/Localizable.strings Coordinator_Checklist/Resources/en.lproj/Localizable.strings
+s379017436.836407
+e379017436.841172
+r1
+xCopyStringsFile
+x/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/en.lproj/Localizable.strings
+xCoordinator_Checklist/Resources/en.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy Coordinator_Checklist/Resources/en.lproj/Localizable.strings693bd6dc5897b641^7157d7dc5897b641^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Resources/en.lproj/Localizable.strings0000000000000000^749"CopyStringsFile DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/en.lproj/Localizable.strings Coordinator_Checklist/Resources/en.lproj/Localizable.strings    cd /Users/reason/xcode/Coordinator_Checklist    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/en.lproj -- Coordinator_Checklist/Resources/en.lproj/Localizable.strings36"37E25E3F-2460-4CEC-8B43-30A3474361DC-
+
+CCopyStringsFile /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/es.lproj/Localizable.strings Coordinator_Checklist/Resources/es.lproj/Localizable.strings
+s379017436.836916
+e379017436.846957
+r1
+xCopyStringsFile
+x/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/es.lproj/Localizable.strings
+xCoordinator_Checklist/Resources/es.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy Coordinator_Checklist/Resources/es.lproj/Localizable.strings3c4dd6dc5897b641^fad1d8dc5897b641^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Resources/es.lproj/Localizable.strings0000000000000000^749"CopyStringsFile DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/es.lproj/Localizable.strings Coordinator_Checklist/Resources/es.lproj/Localizable.strings    cd /Users/reason/xcode/Coordinator_Checklist    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/es.lproj -- Coordinator_Checklist/Resources/es.lproj/Localizable.strings36"2EBC427B-5331-491F-85C8-BE5993270474-
+
+CCopyStringsFile /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/se.lproj/Localizable.strings Coordinator_Checklist/Resources/se.lproj/Localizable.strings
+s379017436.842267
+e379017436.849256
+r1
+xCopyStringsFile
+x/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/se.lproj/Localizable.strings
+xCoordinator_Checklist/Resources/se.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy Coordinator_Checklist/Resources/se.lproj/Localizable.stringsfcabd7dc5897b641^2b69d9dc5897b641^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Resources/se.lproj/Localizable.strings0000000000000000^749"CopyStringsFile DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/se.lproj/Localizable.strings Coordinator_Checklist/Resources/se.lproj/Localizable.strings    cd /Users/reason/xcode/Coordinator_Checklist    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/se.lproj -- Coordinator_Checklist/Resources/se.lproj/Localizable.strings36"4DA42DD5-363A-4BD0-89C4-DE6532535D6C-
+
+CCpResource Coordinator_Checklist/Assets/blackbottomfade.png DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/blackbottomfade.png
+s379017436.866244
+e379017436.870305
+r1
+xCpResource
+xCoordinator_Checklist/Assets/blackbottomfade.png
+xDerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/blackbottomfade.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Copy DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/blackbottomfade.png3dd1dddc5897b641^60ccdedc5897b641^---0#0#0#-19%DVTDocumentLocation2@174"file://localhost/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/blackbottomfade.png000000000080d041^763"CpResource Coordinator_Checklist/Assets/blackbottomfade.png DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/blackbottomfade.png    cd /Users/reason/xcode/Coordinator_Checklist    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Assets/blackbottomfade.png /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app36"05ABF9DD-421D-4F0F-B5A9-C91F9E91650C-
+
+CCpResource Coordinator_Checklist/Assets/blacktopfade.png DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/blacktopfade.png
+s379017436.875841
+e379017436.879961
+r1
+xCpResource
+xCoordinator_Checklist/Assets/blacktopfade.png
+xDerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/blacktopfade.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Copy DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/blacktopfade.png3046e0dc5897b641^6345e1dc5897b641^---0#0#0#-19%DVTDocumentLocation2@171"file://localhost/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/blacktopfade.png000000000080d041^754"CpResource Coordinator_Checklist/Assets/blacktopfade.png DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/blacktopfade.png    cd /Users/reason/xcode/Coordinator_Checklist    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Assets/blacktopfade.png /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app36"A8F5AD5E-E96F-4B55-8080-5F3105837FB0-
+
+CCpResource Coordinator_Checklist/Assets/eula.htm DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/eula.htm
+s379017436.877036
+e379017436.881039
+r1
+xCpResource
+xCoordinator_Checklist/Assets/eula.htm
+xDerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/eula.htm
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Copy DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/eula.htm548fe0dc5897b641^4c8ce1dc5897b641^---0#0#0#-19%DVTDocumentLocation2@163"file://localhost/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/eula.htm000000000080d041^730"CpResource Coordinator_Checklist/Assets/eula.htm DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/eula.htm    cd /Users/reason/xcode/Coordinator_Checklist    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Assets/eula.htm /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app36"363C4AA2-F960-4ADB-BFD6-CB8C899E9967-
+
+CCpResource Coordinator_Checklist/Assets/large.css DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/large.css
+s379017436.879066
+e379017436.883633
+r1
+xCpResource
+xCoordinator_Checklist/Assets/large.css
+xDerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/large.css
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Copy DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/large.css7f14e1dc5897b641^1a36e2dc5897b641^---0#0#0#-19%DVTDocumentLocation2@164"file://localhost/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/large.css000000000080d041^733"CpResource Coordinator_Checklist/Assets/large.css DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/large.css    cd /Users/reason/xcode/Coordinator_Checklist    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Assets/large.css /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app36"4705009C-1F3B-4D59-8803-01E0D853C7E5-
+
+CCpResource Coordinator_Checklist/Assets/viewer.css DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/viewer.css
+s379017436.881159
+e379017436.885362
+r1
+xCpResource
+xCoordinator_Checklist/Assets/viewer.css
+xDerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/viewer.css
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Copy DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/viewer.cssfe9de1dc5897b641^f8a9e2dc5897b641^---0#0#0#-19%DVTDocumentLocation2@165"file://localhost/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/viewer.css000000000080d041^736"CpResource Coordinator_Checklist/Assets/viewer.css DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/viewer.css    cd /Users/reason/xcode/Coordinator_Checklist    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Assets/viewer.css /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app36"0882537D-DCE4-4D4D-A351-DD548A6264A5-
+
+CCpResource Coordinator_Checklist/Resources/Capture.bundle DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Capture.bundle
+s379017436.836394
+e379017436.906458
+r1
+xCpResource
+xCoordinator_Checklist/Resources/Capture.bundle
+xDerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Capture.bundle
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Copy DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Capture.bundle293ed6dc5897b641^d40de8dc5897b641^---0#0#0#-19%DVTDocumentLocation2@169"file://localhost/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Capture.bundle000000000080d041^754"CpResource Coordinator_Checklist/Resources/Capture.bundle DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Capture.bundle    cd /Users/reason/xcode/Coordinator_Checklist    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Resources/Capture.bundle /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app36"405458A9-FE7B-4FFD-A7CE-954906186299-
+
+CCpResource Coordinator_Checklist/Resources/icons/icon-72.png DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/icon-72.png
+s379017436.836379
+e379017436.844359
+r1
+xCpResource
+xCoordinator_Checklist/Resources/icons/icon-72.png
+xDerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/icon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Copy DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/icon-72.pngaf3ed6dc5897b641^3d28d8dc5897b641^---0#0#0#-19%DVTDocumentLocation2@166"file://localhost/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/icon-72.png000000000080d041^757"CpResource Coordinator_Checklist/Resources/icons/icon-72.png DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/icon-72.png    cd /Users/reason/xcode/Coordinator_Checklist    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Resources/icons/icon-72.png /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app36"A23C5D52-5406-4BCB-8747-910FFBD56C4D-
+
+CCpResource Coordinator_Checklist/Resources/icons/icon.png DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/icon.png
+s379017436.836374
+e379017436.842159
+r1
+xCpResource
+xCoordinator_Checklist/Resources/icons/icon.png
+xDerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Copy DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/icon.png103cd6dc5897b641^8598d7dc5897b641^---0#0#0#-19%DVTDocumentLocation2@163"file://localhost/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/icon.png000000000080d041^748"CpResource Coordinator_Checklist/Resources/icons/icon.png DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/icon.png    cd /Users/reason/xcode/Coordinator_Checklist    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Resources/icons/icon.png /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app36"0D5AA056-3CB6-4577-A1C1-AE651001D8BA-
+
+CCpResource Coordinator_Checklist/Resources/icons/icon@2x.png DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/icon@2x.png
+s379017436.836384
+e379017436.845623
+r1
+xCpResource
+xCoordinator_Checklist/Resources/icons/icon@2x.png
+xDerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Copy DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/icon@2x.png4240d6dc5897b641^147bd8dc5897b641^---0#0#0#-19%DVTDocumentLocation2@166"file://localhost/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/icon@2x.png000000000080d041^763"CpResource "Coordinator_Checklist/Resources/icons/icon@2x.png" "DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/icon@2x.png"    cd /Users/reason/xcode/Coordinator_Checklist    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Resources/icons/icon@2x.png" /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app36"6EC26FCA-B98F-4931-95DF-D40AD7336207-
+
+CCpResource Coordinator_Checklist/Resources/splash/Default-568h@2x~iphone.png DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-568h@2x~iphone.png
+s379017436.866241
+e379017436.877896
+r1
+xCpResource
+xCoordinator_Checklist/Resources/splash/Default-568h@2x~iphone.png
+xDerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-568h@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Copy DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-568h@2x~iphone.png07cedddc5897b641^1fbee0dc5897b641^---0#0#0#-19%DVTDocumentLocation2@181"file://localhost/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-568h@2x~iphone.png000000000080d041^810"CpResource "Coordinator_Checklist/Resources/splash/Default-568h@2x~iphone.png" "DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-568h@2x~iphone.png"    cd /Users/reason/xcode/Coordinator_Checklist    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Resources/splash/Default-568h@2x~iphone.png" /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app36"E6B10561-6114-4BCC-874A-C1375F7F0770-
+
+CCpResource Coordinator_Checklist/Resources/splash/Default-Landscape@2x~ipad.png DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-Landscape@2x~ipad.png
+s379017436.845561
+e379017436.885341
+r1
+xCpResource
+xCoordinator_Checklist/Resources/splash/Default-Landscape@2x~ipad.png
+xDerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-Landscape@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Copy DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-Landscape@2x~ipad.pngcf82d8dc5897b641^f4a6e2dc5897b641^---0#0#0#-19%DVTDocumentLocation2@184"file://localhost/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-Landscape@2x~ipad.png000000000080d041^819"CpResource "Coordinator_Checklist/Resources/splash/Default-Landscape@2x~ipad.png" "DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-Landscape@2x~ipad.png"    cd /Users/reason/xcode/Coordinator_Checklist    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Resources/splash/Default-Landscape@2x~ipad.png" /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app36"3EDBE68E-DEA1-4E09-A612-1C31D75786F1-
+
+CCpResource Coordinator_Checklist/Resources/splash/Default-Landscape~ipad.png DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-Landscape~ipad.png
+s379017436.846838
+e379017436.865612
+r1
+xCpResource
+xCoordinator_Checklist/Resources/splash/Default-Landscape~ipad.png
+xDerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-Landscape~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Copy DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-Landscape~ipad.pngc7d9d8dc5897b641^3599dddc5897b641^---0#0#0#-19%DVTDocumentLocation2@181"file://localhost/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-Landscape~ipad.png000000000080d041^810"CpResource "Coordinator_Checklist/Resources/splash/Default-Landscape~ipad.png" "DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-Landscape~ipad.png"    cd /Users/reason/xcode/Coordinator_Checklist    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Resources/splash/Default-Landscape~ipad.png" /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app36"2600041D-8E59-425E-83E9-830E1D05385B-
+
+CCpResource Coordinator_Checklist/Resources/splash/Default-Portrait@2x~ipad.png DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-Portrait@2x~ipad.png
+s379017436.848192
+e379017436.886192
+r1
+xCpResource
+xCoordinator_Checklist/Resources/splash/Default-Portrait@2x~ipad.png
+xDerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-Portrait@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Copy DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-Portrait@2x~ipad.pngb536d9dc5897b641^2fdfe2dc5897b641^---0#0#0#-19%DVTDocumentLocation2@183"file://localhost/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-Portrait@2x~ipad.png000000000080d041^816"CpResource "Coordinator_Checklist/Resources/splash/Default-Portrait@2x~ipad.png" "DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-Portrait@2x~ipad.png"    cd /Users/reason/xcode/Coordinator_Checklist    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Resources/splash/Default-Portrait@2x~ipad.png" /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app36"81F12613-2E1A-45B9-8AEF-31B814D79F7B-
+
+CCpResource Coordinator_Checklist/Resources/splash/Default-Portrait~ipad.png DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-Portrait~ipad.png
+s379017436.850451
+e379017436.865102
+r1
+xCpResource
+xCoordinator_Checklist/Resources/splash/Default-Portrait~ipad.png
+xDerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-Portrait~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Copy DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-Portrait~ipad.pnga0c6d9dc5897b641^d977dddc5897b641^---0#0#0#-19%DVTDocumentLocation2@180"file://localhost/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-Portrait~ipad.png000000000080d041^807"CpResource "Coordinator_Checklist/Resources/splash/Default-Portrait~ipad.png" "DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default-Portrait~ipad.png"    cd /Users/reason/xcode/Coordinator_Checklist    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Resources/splash/Default-Portrait~ipad.png" /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app36"701703D3-AC62-469B-BBB2-1481F5D92A63-
+
+CCpResource Coordinator_Checklist/Resources/splash/Default@2x~iphone.png DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default@2x~iphone.png
+s379017436.851599
+e379017436.863254
+r1
+xCpResource
+xCoordinator_Checklist/Resources/splash/Default@2x~iphone.png
+xDerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Copy DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default@2x~iphone.png2b13dadc5897b641^acfedcdc5897b641^---0#0#0#-19%DVTDocumentLocation2@176"file://localhost/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default@2x~iphone.png000000000080d041^795"CpResource "Coordinator_Checklist/Resources/splash/Default@2x~iphone.png" "DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default@2x~iphone.png"    cd /Users/reason/xcode/Coordinator_Checklist    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Resources/splash/Default@2x~iphone.png" /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app36"C36E960B-8128-44AE-936D-00BF3AAFE21A-
+
+CCpResource Coordinator_Checklist/Resources/splash/Default~iphone.png DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default~iphone.png
+s379017436.864505
+e379017436.875863
+r1
+xCpResource
+xCoordinator_Checklist/Resources/splash/Default~iphone.png
+xDerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Copy DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default~iphone.png5f5ddddc5897b641^8a39e0dc5897b641^---0#0#0#-19%DVTDocumentLocation2@173"file://localhost/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default~iphone.png000000000080d041^786"CpResource "Coordinator_Checklist/Resources/splash/Default~iphone.png" "DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Default~iphone.png"    cd /Users/reason/xcode/Coordinator_Checklist    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Resources/splash/Default~iphone.png" /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app36"E3113F1B-8018-45C7-8F45-9019DC454B6D-
+
+CCpResource www DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/www
+s379017436.836336
+e379017436.944608
+r1
+xCpResource
+xwww
+xDerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/www
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/wwwa435d6dc5897b641^02d3f1dc5897b641^---0#0#0#-19%DVTDocumentLocation2@158"file://localhost/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/www000000000080d041^657"CpResource www DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/www    cd /Users/reason/xcode/Coordinator_Checklist    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reason/xcode/Coordinator_Checklist/www /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app36"FF19AF60-0076-4642-8355-5690E843E823-
+
+CDataModelVersionCompile /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Coordinator_Checklist.momd /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Models/Coordinator_Checklist.xcdatamodeld
+s379017436.951976
+e379017437.139601
+r1
+xDataModelVersionCompile
+x/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Coordinator_Checklist.momd
+x/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Models/Coordinator_Checklist.xcdatamodeld
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection211"DataModelVersionCompile DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Coordinator_Checklist.momd Coordinator_Checklist/Models/Coordinator_Checklist.xcdatamodeld68cdf3dc5897b641^b2bc23dd5897b641^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Models/Coordinator_Checklist.xcdatamodeld/0000000000000000^1084"DataModelVersionCompile DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Coordinator_Checklist.momd Coordinator_Checklist/Models/Coordinator_Checklist.xcdatamodeld    cd /Users/reason/xcode/Coordinator_Checklist    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/momc -XD_MOMC_SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -XD_MOMC_IOS_TARGET_VERSION=4.3 -MOMC_PLATFORMS iphonesimulator -MOMC_PLATFORMS iphoneos -XD_MOMC_TARGET_VERSION=10.6 /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Models/Coordinator_Checklist.xcdatamodeld /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Coordinator_Checklist.momd36"9CFC7ECD-E834-4BC3-8764-BC0207324A00-
+
+CGenerateDSYMFile /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app.dSYM /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Coordinator_Checklist
+r0
+
+CLd /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Coordinator_Checklist normal i386
+r0
+
+CPhaseScriptExecution "Touch www folder" /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Script-304B58A110DAC018002A0835.sh
+s379017436.808578
+e379017436.828257
+r1
+xPhaseScriptExecution
+xTouch www folder
+x/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Script-304B58A110DAC018002A0835.sh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Run custom shell script 'Touch www folder'6d38d0dc5897b641^7408d4dc5897b641^---0#0#0#--23506"PhaseScriptExecution "Touch www folder" DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Script-304B58A110DAC018002A0835.sh    cd /Users/reason/xcode/Coordinator_Checklist    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER reason    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products    setenv BUILD_ROOT /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator    setenv CACHE_ROOT /var/folders/k8/2tlxf8zs33n2whsvscbqprdw0000gq/C/com.apple.Xcode.503    setenv CCHROOT /var/folders/k8/2tlxf8zs33n2whsvscbqprdw0000gq/C/com.apple.Xcode.503    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC NO    setenv CLANG_WARN_OBJCPP_ARC_ABI YES    setenv CLASS_FILE_DIR /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/k8/2tlxf8zs33n2whsvscbqprdw0000gq/C/com.apple.Xcode.503/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator    setenv CONFIGURATION_TEMP_DIR /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH Coordinator_Checklist.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CORDOVALIB /Users/reason/Documents/CordovaLib    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH Coordinator_Checklist.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/Coordinator_Checklist.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME Coordinator_Checklist.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH Coordinator_Checklist.app/Executables    setenv EXECUTABLE_FOLDER_PATH Coordinator_Checklist.app    setenv EXECUTABLE_NAME Coordinator_Checklist    setenv EXECUTABLE_PATH Coordinator_Checklist.app/Coordinator_Checklist    setenv FILE_LIST /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH Coordinator_Checklist.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME Coordinator_Checklist.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER Coordinator_Checklist/Coordinator_Checklist-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/include\" \"/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/usr/local/lib/include\" \"/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/UninstalledProducts/include\" \"/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Coordinator_Checklist/Coordinator_Checklist-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH Coordinator_Checklist.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH Coordinator_Checklist.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/Coordinator_Checklist.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER reason    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/Coordinator_Checklist.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH Coordinator_Checklist.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator\"  \"/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/FlurryAnalytics\""    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal/i386/Coordinator_Checklist.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH Coordinator_Checklist.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12C3012    setenv MAC_OS_X_VERSION_ACTUAL 1082    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0802    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Objects-normal    setenv OBJROOT /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates    setenv ONLY_ACTIVE_ARCH YES    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH Coordinator_Checklist.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/PkgInfo    setenv PKGINFO_PATH Coordinator_Checklist.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 10A403    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 60000    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH Coordinator_Checklist.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH Coordinator_Checklist.app/PrivateHeaders    setenv PRODUCT_NAME Coordinator_Checklist    setenv PRODUCT_SETTINGS_PATH /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Coordinator_Checklist-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT Coordinator_Checklist    setenv PROJECT_DERIVED_FILE_DIR /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/DerivedSources    setenv PROJECT_DIR /Users/reason/xcode/Coordinator_Checklist    setenv PROJECT_FILE_PATH /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist.xcodeproj    setenv PROJECT_NAME Coordinator_Checklist    setenv PROJECT_TEMP_DIR /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build    setenv PUBLIC_HEADERS_FOLDER_PATH Coordinator_Checklist.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH Coordinator_Checklist.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk    setenv SDK_NAME iphonesimulator6.0    setenv SDK_PRODUCT_BUILD_VERSION 10A403    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH Coordinator_Checklist.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/PrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH Coordinator_Checklist.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/reason/xcode/Coordinator_Checklist    setenv SRCROOT /Users/reason/xcode/Coordinator_Checklist    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SVN "http://t2share1/svn/mobile/trunk"    setenv SYMROOT /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME Coordinator_Checklist    setenv TARGET_BUILD_DIR /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator    setenv TARGET_NAME Coordinator_Checklist    setenv TARGET_TEMP_DIR /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build    setenv TEMP_DIR /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build    setenv TEMP_FILES_DIR /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build    setenv TEMP_FILE_DIR /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build    setenv TEMP_ROOT /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 503    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH Coordinator_Checklist.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER reason    setenv USER_APPS_DIR /Users/reason/Applications    setenv USER_LIBRARY_DIR /Users/reason/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH Coordinator_Checklist.app/version.plist    setenv VERSION_INFO_BUILDER reason    setenv VERSION_INFO_FILE Coordinator_Checklist_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:Coordinator_Checklist  PROJECT:Coordinator_Checklist-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME Coordinator_Checklist.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4G2008a    setenv XCODE_VERSION_ACTUAL 0452    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0450    setenv YACC yacc    /bin/sh -c /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Script-304B58A110DAC018002A0835.sh36"021B71B6-E72A-4E68-9424-3837BEBF1ED6-
+
+CProcessInfoPlistFile /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Info.plist Coordinator_Checklist/Coordinator_Checklist-Info.plist
+s379017436.797286
+e379017436.800878
+r1
+xProcessInfoPlistFile
+x/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Info.plist
+xCoordinator_Checklist/Coordinator_Checklist-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Process Coordinator_Checklist/Coordinator_Checklist-Info.plist9d4cccdc5897b641^1212cddc5897b641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Coordinator_Checklist-Info.plist0000000000000000^886"ProcessInfoPlistFile DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Info.plist Coordinator_Checklist/Coordinator_Checklist-Info.plist    cd /Users/reason/xcode/Coordinator_Checklist    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Coordinator_Checklist/Coordinator_Checklist-Info.plist -genpkginfo /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app/Info.plist36"C0CBBA85-0C67-4B15-9B4C-DBE5B823EEC8-
+
+CProcessPCH /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/PrecompiledHeaders/Coordinator_Checklist-Prefix-bvbzjazbdaszrrbxdjrivvkwewnb/Coordinator_Checklist-Prefix.pch.pth Coordinator_Checklist/Coordinator_Checklist-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s379017436.951981
+e379017437.382055
+r1
+xProcessPCH
+x/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/PrecompiledHeaders/Coordinator_Checklist-Prefix-bvbzjazbdaszrrbxdjrivvkwewnb/Coordinator_Checklist-Prefix.pch.pth
+xCoordinator_Checklist/Coordinator_Checklist-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Precompile Coordinator_Checklist/Coordinator_Checklist-Prefix.pch62daf3dc5897b641^42d061dd5897b641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Coordinator_Checklist-Prefix.pch0000000000000000^4452"ProcessPCH DerivedData/Coordinator_Checklist/Build/Intermediates/PrecompiledHeaders/Coordinator_Checklist-Prefix-bvbzjazbdaszrrbxdjrivvkwewnb/Coordinator_Checklist-Prefix.pch.pth Coordinator_Checklist/Coordinator_Checklist-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reason/xcode/Coordinator_Checklist    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-generated-files.hmap -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-own-target-headers.hmap -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-all-target-headers.hmap -iquote /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/Coordinator_Checklist-project-headers.hmap -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/include -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/usr/local/lib/include -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/UninstalledProducts/include -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/DerivedSources/i386 -I/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/Coordinator_Checklist.build/Debug-iphonesimulator/Coordinator_Checklist.build/DerivedSources -F/Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/PrecompiledHeaders/Coordinator_Checklist-Prefix-bvbzjazbdaszrrbxdjrivvkwewnb/Coordinator_Checklist-Prefix.pch.dia -c /Users/reason/xcode/Coordinator_Checklist/Coordinator_Checklist/Coordinator_Checklist-Prefix.pch -o /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/PrecompiledHeaders/Coordinator_Checklist-Prefix-bvbzjazbdaszrrbxdjrivvkwewnb/Coordinator_Checklist-Prefix.pch.pth -MMD -MT dependencies -MF /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Intermediates/PrecompiledHeaders/Coordinator_Checklist-Prefix-bvbzjazbdaszrrbxdjrivvkwewnb/Coordinator_Checklist-Prefix.pch.d36"A0E0C655-4A93-41ED-B0EB-DC5806EC8986-
+
+CProcessPCH /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Index/PrecompiledHeaders/Coordinator_Checklist-Prefix-gtdqfhprbmwezedomazlfdtehiqw_ast/Coordinator_Checklist-Prefix.pch.pth Coordinator_Checklist/Coordinator_Checklist-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/reason/xcode/Coordinator_Checklist/DerivedData/Coordinator_Checklist/Build/Products/Debug-iphonesimulator/Coordinator_Checklist.app
+r0
+
